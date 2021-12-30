@@ -1,3 +1,7 @@
+![Yeah](https://img.shields.io/badge/-HappyNewYear!-magenta)
+![Status](https://img.shields.io/badge/-Termux_GUI-cyan)
+![Status](https://img.shields.io/badge/-Status:_in_progress-yellow)
+
 # XFCE4 - Graphic interface | For Termux without Root
 
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/Python-Projects/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE with Theme Dark")
@@ -17,28 +21,28 @@ Para que o usuário possa utilizar Teclado, Mouse e configura-la com Papel de pa
 É completamente executada pelo dispositivo, **você não precisa ter acesso a Root**!, Está versão é otimizada e com aplicações leves para o uso.
 
 # Informações do XFCE-Modification
+|Informações|Respostas|
+|--|--|
+|Nome Modificado| ![Status](https://img.shields.io/badge/-XFCWin-green)|
+|Tamanho| ![Status](https://img.shields.io/badge/-1.6GB-orange)|
+|Versão| ![Status](https://img.shields.io/badge/-Latest-cyan)|
+|Versão do Script| ![Status](https://img.shields.io/badge/-v1.0.0e-orange)|
+|Versão do Android| ![Status](https://img.shields.io/badge/-7.0+-green)|
+|Versão do Termux| ![Status](https://img.shields.io/badge/-v0.117-cyan)|
+|Arquitetura| ![Status](https://img.shields.io/badge/-32Bits_and_64Bits-blue)|
+|Construção| ![Status](https://img.shields.io/badge/-Automatica-green)|
+|RAM| ![Status](https://img.shields.io/badge/-2GB_Minimo-cyan)|
 
-💡 | **Nome:** XFCE-Win-10-Modification (XFCE4)
-
-📥 | **Tamanho:** 1.6GB (Completo)
-
-🛡️ | **Versão:** Latest (XFCE4)
-
-🛡️ | **Versão do Script:** 1.0.0e
-
-⚙️ | **Versão do Android:** 7.0+
-
-📱 | **Versão do Termux:** v0.117 (Latest)
-
-🔑 | **Arquitetura:** 32-Bits / 64-Bits
-
-⚒️ | **Construção:** Automatica via Script
-
-📌 | **RAM:** 2GB Mínimo / Recomendável 4GB
-
-🚨**Notas:** Está versão não requer acesso a Root no dispositivo,
+**Nota**: Está versão não requer acesso a Root no dispositivo,
 Fique tranquilo, Por Favor, utilize a última versão disponível do Termux, instale-o
 Clicando aqui • [Download Termux](https://cdn.down-apk.com/com.termux/Termux_0.117_apkcombo.com.apk?ecp=Y29tLnRlcm11eC8wLjExNy8xMTcuNDkxZjIwN2UyODlhYzA1YmNiMzljYTQzNmI1MjE4ZjZhZTgwMWRiZC5hcGs=&iat=1640880795&sig=094bf10e8d023f17bc3c9ae2859a5008&size=85749239&from=cf&version=latest)
+
+# Download Termux & VNC
+Termux:
+[Download](https://cdn.down-apk.com/com.termux/Termux_0.117_apkcombo.com.apk?ecp=Y29tLnRlcm11eC8wLjExNy8xMTcuNDkxZjIwN2UyODlhYzA1YmNiMzljYTQzNmI1MjE4ZjZhZTgwMWRiZC5hcGs=&iat=1640880795&sig=094bf10e8d023f17bc3c9ae2859a5008&size=85749239&from=cf&version=latest)
+
+VNC Viewer:
+[Download](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
 
 # Como Baixar & Instalar?
 Bem, como vocês viram ali em cima, a construção do código é **automática**, sem necessidade de mover, extrair arquivos manualmente,
@@ -179,14 +183,16 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 
 # Manutenção
 Informações de manutenção e cuidado do Projeto.
-| | |
+|Informações|Status| 
 |--|--|
-|Status| **🛡️ Ativa** |
-|Mantenedor| **🌐 MatheusTGamerPro** |
-|Status Service| **⚠️ Instalavel** |
-|Versão| **📍1.0.0 Estável** |
+|Status|![Status](https://img.shields.io/badge/-Ativa-green)|
+|Mantenedor|![Mantenedor](https://img.shields.io/badge/-MatheusTGamerPro-red)|
+|Status do Script|![Script](https://img.shields.io/badge/-Em_Construção-orange)|
+|Versão|![Version](https://img.shields.io/badge/-1.0.0e-magenta)|
+|Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1-yellow)|
 
 # Final
+
 Está versão ainda está em testes, erros ou bugs podem ocorrer,
 Caso você for inexperiente em Bash ou em comandos Linux, estude, e tente o máximo possível
 Não copiar e colar códigos aleatórios da internet, isso é muito perigoso, qualquer dúvida envie na aba 'issues'.
