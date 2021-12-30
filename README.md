@@ -184,7 +184,7 @@ Informações de manutenção e cuidado do Projeto.
 |Status| **🛡️ Ativa** |
 |Mantenedor| **🌐 MatheusTGamerPro** |
 |Status Service| **⚠️ Instalavel** |
-|Versão| **📍1.0.0 Estável |
+|Versão| **📍1.0.0 Estável** |
 
 # Final
 Está versão ainda está em testes, erros ou bugs podem ocorrer,
