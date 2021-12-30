@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Thunar File Manager
+Comment=Browse the filesystem with the file manager
+Exec=thunar %F
+Icon=system-file-manager
+Path=
+Terminal=false
+StartupNotify=true
