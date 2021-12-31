@@ -25,13 +25,16 @@ Para que o usuário possa utilizar Teclado, Mouse e configura-la com Papel de pa
 |--|--|
 |Nome Modificado| ![Status](https://img.shields.io/badge/-XFCWin-green)|
 |Tamanho| ![Status](https://img.shields.io/badge/-1.6GB-orange)|
+|Memória Livre recomendada| ![Status](https://img.shields.io/badge/-3~4GB_Free-cyan)|
 |Versão| ![Status](https://img.shields.io/badge/-Latest-cyan)|
 |Versão do Script| ![Status](https://img.shields.io/badge/-v1.0.0e-orange)|
 |Versão do Android| ![Status](https://img.shields.io/badge/-7.0+-green)|
 |Versão do Termux| ![Status](https://img.shields.io/badge/-v0.117-cyan)|
 |Arquitetura| ![Status](https://img.shields.io/badge/-32Bits_and_64Bits-blue)|
 |Construção| ![Status](https://img.shields.io/badge/-Automatica-green)|
-|RAM| ![Status](https://img.shields.io/badge/-2GB_Minimo-cyan)|
+|RAM Mínima| ![Status](https://img.shields.io/badge/-2GB_Minimo-cyan)|
+|RAM Recomendavel| ![Status](https://img.shields.io/badge/-4GB_Recomendavel-green)|
+|ROOT| ![Status](https://img.shields.io/badge/-NO-red)|
 
 **Nota**: Está versão não requer acesso a Root no dispositivo,
 Fique tranquilo, Por Favor, utilize a última versão disponível do Termux, instale-o
