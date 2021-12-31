@@ -1,6 +1,7 @@
 ![Yeah](https://img.shields.io/badge/-HappyNewYear!-magenta)
 ![Status](https://img.shields.io/badge/-Termux_GUI-cyan)
-![Status](https://img.shields.io/badge/-Status:_in_progress-yellow)
+![Status](https://img.shields.io/badge/Feito%20em-Bash-1f425f.svg)
+![Status](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
 
 # XFCE4 - Graphic interface | For Termux without Root
 
