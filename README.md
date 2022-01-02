@@ -47,7 +47,7 @@ Fique tranquilo. Por Favor, utilize a última versão disponível do Termux.
 
 # Download Termux & VNC
 Termux:
-[Download](https://cdn.down-apk.com/com.termux/Termux_0.117_apkcombo.com.apk?ecp=Y29tLnRlcm11eC8wLjExNy8xMTcuNDkxZjIwN2UyODlhYzA1YmNiMzljYTQzNmI1MjE4ZjZhZTgwMWRiZC5hcGs=&iat=1640880795&sig=094bf10e8d023f17bc3c9ae2859a5008&size=85749239&from=cf&version=latest)
+[Download](https://f-droid.org/repo/com.termux_117.apk)
 
 VNC Viewer:
 [Download](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
