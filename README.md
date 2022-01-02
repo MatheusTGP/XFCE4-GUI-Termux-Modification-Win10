@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Feito%20em-Bash-1f425f.svg)
 ![Status](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
 
-# XFCE4 - Graphic interface | For Termux without Root
+# XFCE4 - Desktop | For Termux without Root
 
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE with Theme Dark")
 
@@ -11,17 +11,21 @@ Nesse Projeto, você poderá executar uma SUPER Interface Gráfica no seu dispos
 com ele você pode acessar vários programas sendo, navegador, IDLEs, Java, Python, Entre outro programas, está interface e Leve e com uma ótima Otimização.
 
 Execute Programas para Programar sendo em: **Java, Python, NodeJS, C++/C.**
-Você pode acessar a Internet com o navegadore, assistir vídeos com Vídeo Player,
-Escutar música com **Audacious**, veja a vídeos no YouTube pelo Navegador e entre várias outras funções, Logo abaixo, você terá um pequeno tutorial Completo
-da instalação do XFCE4-Win no seu Dispositivo.
+Você pode acessar a Internet com o navegador, assistir vídeos com Vídeo Player,
+Escutar música com **Audacious**e muito mais, veja a vídeos no YouTube pelo Navegador e entre várias outras funções, Logo abaixo, você terá um pequeno tutorial Completo
+da instalação do XFCWin no seu Dispositivo.
 
 # Oque é este computador?
-Está interface gráfica e uma versão do XFCE4 Modificado com algumas alterações sendo temas e funcionalidades,
+Está interface gráfica e uma versão do [XFCE4](https://www.xfce.org/) Modificado com algumas alterações sendo temas e funcionalidades,
 Está versão do XFCE pode ser executada pelo App emulador de terminal **Termux**, o XFCE Cria uma interface (desktop),
-Para que o usuário possa utilizar Teclado, Mouse e configura-la com Papel de parede, programas, Temas, e entre outras variedades de funções, está versão
+Para que o usuário possa utilizar Teclado e Mouse para configura-la com Papel de parede, programas, Temas, e entre outras variedades de funções, está versão
 É completamente executada pelo dispositivo, **você não precisa ter acesso a Root**!, Está versão é otimizada e com aplicações leves para o uso.
 
-# Informações do XFCE-Modification
+🚨 | **Você não precisa ter Teclado e Mouse Externo para utilizar o XFCWin,
+O próprio VNC disponibiliza o teclado e Mouse virtual, más caso você tenha um teclado e Mouse Externo,
+Você pode utilizar..**
+
+# Informações do XFCWin (XFCE)
 |Informações|Respostas|
 |--|--|
 |Nome Modificado| ![Status](https://img.shields.io/badge/-XFCWin-green)|
@@ -38,7 +42,7 @@ Para que o usuário possa utilizar Teclado, Mouse e configura-la com Papel de pa
 |ROOT| ![Status](https://img.shields.io/badge/-NO-red)|
 
 **Nota**: Está versão não requer acesso a Root no dispositivo,
-Fique tranquilo, Por Favor, utilize a última versão disponível do Termux, instale-o
+Fique tranquilo. Por Favor, utilize a última versão disponível do Termux, instale-o
 Clicando aqui • [Download Termux](https://cdn.down-apk.com/com.termux/Termux_0.117_apkcombo.com.apk?ecp=Y29tLnRlcm11eC8wLjExNy8xMTcuNDkxZjIwN2UyODlhYzA1YmNiMzljYTQzNmI1MjE4ZjZhZTgwMWRiZC5hcGs=&iat=1640880795&sig=094bf10e8d023f17bc3c9ae2859a5008&size=85749239&from=cf&version=latest)
 
 # Download Termux & VNC
@@ -53,12 +57,12 @@ Bem, como vocês viram ali em cima, a construção do código é **automática**
 Aqui em baixo terá algums comandos que você necessitara para instalar o XFCWin (XFCE), para isso você precisa ter o Termux na última versão instalada,
 Vá ali em cima em "Download Termux" e clique para começar a baixar.
 
-Chega de enrolação e vamos iniciar os componentes necessários para instalação,
+Chega de enrolação e vamos iniciar os componentes necessários para instalação.
 Primeiramente devemos verificar alguns componentes do nosso Termux, por exemplo, vá até às configurações
 Do Termux e permita que ele acesse o **"Armazenamento Interno"** isso é extremamente necessário, após isso
 Vamos iniciar a construção do XFCWin.
 
-Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no clipboard)**
+Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no clipboard do lado direito)**
 
     clear && 
     apt install git && 
@@ -77,13 +81,13 @@ Você irá se deparar com uma interface com um pequeno botão no canto inferior 
 Normalmente o servidor é ``` localhost:1 ```, adicione isso no campo de Endereço/ Adress, na senha quando você for iniciar o servidor
 Irá pedir uma senha para ser criada, então fique tranquilo, após fazer está configuração, volte ao Termux depois de ter instalado completamente o XFCWin.
 
-**[ Iniciar Servidor ]**
+- (**Iniciar Servidor ↓**)
 
 Agora para você poder iniciar o servidor de acesso para o VNC com o endereço: ```localhost:1```, Digite:
 
     startvnc
 
-**[ Parar Servidor ]**
+- (**Parar Servidor ↓**)
 
 isso fará com que o servidor se inicie com o processo tudo automaticamente, ele irá já abrir e você poderá controlar o acesso dentro da máquina
 Para você parar a execução do servidor e sair da máquina, vá no botão de **logout** ou digite o seguinte comando no Termux:
@@ -94,14 +98,16 @@ Recomendo que feche o Computador pelo botão **"logout"** dentro da máquina, el
 Do servidor VNC, por favor, não faça vários comandos como: startvnc startvnc, por se não algums servidores a mais irão iniciar, então,
 Sempre lembre-se de abrir E parar o servidor.
 
-**[ Comandos Extras V1.0.0e]**
+- (**Comandos Extras v1.0.0 ↓**)
 
 Também temos algums comandos extras para melhorar o desempenho e remover alguns itens desnecessários:
 
     xfcwin-clean
 
-Este comando fará uma limpeza de alguns cachês que ele procurar, isso deixando menos 'poluido'
-O seu Termux 😀, vamos supor que você acabou inserindo uma senha errada... E queira trocar ela.. não é? Então use este comando:
+↑Este comando fará uma limpeza de alguns cachês que ele procurar, isso deixando menos 'poluido'
+O seu Termux. 😁
+
+↓vamos supor que você acabou inserindo uma senha errada... E queira trocar ela.. Então use este comando:
 
     vncpasswd
 
@@ -110,7 +116,7 @@ Este comando ira pedir uma nova senha de Acesso, para você abrir o servidor, le
 
 **[ Finalização]**
 
-Bem, agora que você aprendeu a como instalar o XFCwin Modification, fica mais fácil né?
+Bem, agora que você aprendeu a como instalar o XFCwin, fica mais fácil né?
 Espero que tenha funcionado corretamente, caso houver algum erro vá em **'issues'** aqui na GitHub para informar
 O problema que ocorreu, caso você desejar Desinstalar o XFCWin, você pode Desinstalar o seu Termux, porquê ainda não construi
 Um script de desinstalação 😶, más nos próximos Updates.. ele virá! 🙂.
@@ -160,7 +166,7 @@ Please, Add all of the above rights when creating a copy of the repository
 =====
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-03-51.png?raw=true "XFCE-3")
 =====
-# Construção V1.0.0
+# Informações do XFCWin e Funcionalidades
 Todas as Funções e Programas suportados e pré-lançados na versão atual
 
 **[ Programas Instalados ]**
@@ -191,12 +197,12 @@ Informações de manutenção e cuidado do Projeto.
 |--|--|
 |Status|![Status](https://img.shields.io/badge/-Ativa-green)|
 |Mantenedor|![Mantenedor](https://img.shields.io/badge/-MatheusTGamerPro-red)|
-|Status do Script|![Script](https://img.shields.io/badge/-Em_Construção-orange)|
+|Status do Script|![Script](https://img.shields.io/badge/-Instalavel-green)|
 |Versão|![Version](https://img.shields.io/badge/-1.0.0e-magenta)|
-|Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1-yellow)|
+|Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1.12-yellow)|
 
 # Final
 
-Está versão ainda está em testes, erros ou bugs podem ocorrer,
-Caso você for inexperiente em Bash ou em comandos Linux, estude, e tente o máximo possível
-Não copiar e colar códigos aleatórios da internet, isso é muito perigoso, qualquer dúvida envie na aba 'issues'.
+Versão 1.0.0 Acaba de ser Lançada! Foi Muito complicado mesmo construir
+Aquele script e montar todos os Pacotes de instalação, agradeço muito a todos que utilizar o XFCWin,
+Mais em breve ocorre novas atualizações e aprimoramentos. 🙂
