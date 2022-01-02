@@ -1,7 +1,8 @@
-![Yeah](https://img.shields.io/badge/-HappyNewYear!-magenta)
+![Yeah](https://img.shields.io/badge/-HappyNewYear_2022!-magenta)
 ![Status](https://img.shields.io/badge/-Termux_GUI-cyan)
 ![Status](https://img.shields.io/badge/Feito%20em-Bash-1f425f.svg)
 ![Status](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
+![Yeah](https://img.shields.io/badge/-Version:_1.0.0-green)
 
 # XFCE4 - Desktop | For Termux without Root
 
@@ -31,7 +32,7 @@ Você pode utilizar..**
 |Nome Modificado| ![Status](https://img.shields.io/badge/-XFCWin-green)|
 |Tamanho| ![Status](https://img.shields.io/badge/-1.6GB-orange)|
 |Memória Livre recomendada| ![Status](https://img.shields.io/badge/-3~4GB_Free-cyan)|
-|Versão| ![Status](https://img.shields.io/badge/-Latest-cyan)|
+|Versão do XFCE| ![Status](https://img.shields.io/badge/-4-cyan)|
 |Versão do Script| ![Status](https://img.shields.io/badge/-v1.0.0e-orange)|
 |Versão do Android| ![Status](https://img.shields.io/badge/-7.0+-green)|
 |Versão do Termux| ![Status](https://img.shields.io/badge/-v0.117-cyan)|
@@ -42,8 +43,7 @@ Você pode utilizar..**
 |ROOT| ![Status](https://img.shields.io/badge/-NO-red)|
 
 **Nota**: Está versão não requer acesso a Root no dispositivo,
-Fique tranquilo. Por Favor, utilize a última versão disponível do Termux, instale-o
-Clicando aqui • [Download Termux](https://cdn.down-apk.com/com.termux/Termux_0.117_apkcombo.com.apk?ecp=Y29tLnRlcm11eC8wLjExNy8xMTcuNDkxZjIwN2UyODlhYzA1YmNiMzljYTQzNmI1MjE4ZjZhZTgwMWRiZC5hcGs=&iat=1640880795&sig=094bf10e8d023f17bc3c9ae2859a5008&size=85749239&from=cf&version=latest)
+Fique tranquilo. Por Favor, utilize a última versão disponível do Termux.
 
 # Download Termux & VNC
 Termux:
@@ -169,7 +169,7 @@ Please, Add all of the above rights when creating a copy of the repository
 # Informações do XFCWin e Funcionalidades
 Todas as Funções e Programas suportados e pré-lançados na versão atual
 
-**[ Programas Instalados ]**
+**[Programas já Instalados]**
 
 - [x] Geany IDLE
 - [x] Navegador (Otter-Browser)
@@ -191,7 +191,7 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 - [x] Suporte Proot
 - [ ] QTCreator IDLE (Added Soon...😳)
 
-# Manutenção
+# Manutenção do Projeto
 Informações de manutenção e cuidado do Projeto.
 |Informações|Status| 
 |--|--|
@@ -201,7 +201,7 @@ Informações de manutenção e cuidado do Projeto.
 |Versão|![Version](https://img.shields.io/badge/-1.0.0e-magenta)|
 |Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1.12-yellow)|
 
-# Final
+# Finalização
 
 Versão 1.0.0 Acaba de ser Lançada! Foi Muito complicado mesmo construir
 Aquele script e montar todos os Pacotes de instalação, agradeço muito a todos que utilizar o XFCWin,
