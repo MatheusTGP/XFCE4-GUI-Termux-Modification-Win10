@@ -66,7 +66,8 @@ Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no cli
 
     clear && 
     apt install git && 
-    git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 && 
+    git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+    cd XFCE-GUI-Termux-Modification-Win10 &&
     bash install.sh
 
 Após copiar e colar este comando no Termux, ele coletara os recursos do XFCE e logo em seguida irá
