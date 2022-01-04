@@ -1,7 +1,7 @@
 # | Script instalador do XFCWIN |
 # | Creditos: ©MatheusTGamerPro |
 # | GitHub: https://github.com/MatheusTGamerPro |
-# | Versão: 1.0.0-estável (build-2) | 
+# | Versão: 1.0.0-estável (build-1.2.1) |
 
 # | Hello, This version is translated for EN-US so that most
 # | of people understand the Script, soon the script will have a Language selector to select
@@ -111,7 +111,7 @@ on_start_install(){
 	echo -e "$Stats_Warn $W To start the server use: $C startvnc,$W to stop it you use: $R stopvnc."
 	sleep 2
 	echo
-	echo -e "$Y Aproveite $W"
+	echo -e "$Y Enjoy!! $W"
 
 	exit
 }
@@ -121,12 +121,6 @@ on_cancel_install(){
 	echo -e "\033[01;31mInstallation Canceled!\033[01;37m"
 	sleep 2
 	clear
-}
-
-on_value_invalid(){
-	sleep 1
-    	echo -e "\033[01;31mInvalid Option,\033[01;32mTry Again."
-	exit
 }
 
 ask_setup(){
@@ -145,8 +139,7 @@ if [ -e $PREFIX/bin/xfce4-session ]; then
 	Stats_Info="$W[$B⌕$W]"
 	sleep 1
 	clear
-	echo -e "$Stats_Info$R Sorry,$Y I verified that you has already installed..."
-	exit
+	echo -e "$Stats_Info$R Sorry,$Y I verified that you has already installed."
 else
 	ask_setup
 fi
