@@ -1,7 +1,7 @@
 # | Script instalador do XFCWIN |
 # | Creditos: ©MatheusTGamerPro |
 # | GitHub: https://github.com/MatheusTGamerPro |
-# | Versão: 1.0.0-estável (build-1) | 
+# | Versão: 1.0.0-estável (build-2) | 
 
 # | Hello, This version is translated for EN-US so that most
 # | of people understand the Script, soon the script will have a Language selector to select
@@ -119,9 +119,8 @@ on_start_install(){
 on_cancel_install(){
 	clear
 	echo -e "\033[01;31mInstallation Canceled!\033[01;37m"
-	sleep 1
+	sleep 2
 	clear
-	exit
 }
 
 on_value_invalid(){
@@ -136,7 +135,7 @@ ask_setup(){
 	case $ask_setup in
 		y|Y|s|sim|Sim|SIm|SIM ) on_start_install ;;
 		n|N|no|nao|Nao|NAo|Não|NÃo|NÃO ) on_cancel_install ;;
-		* ) on_value_invalid  ;; 
+		* ) echo -e "\033[01;31mOption Null\033[00;00m" && sleep 1 && ask_setup  ;; 
 esac
 }
 
