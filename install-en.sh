@@ -1,3 +1,4 @@
+#! /data/data/com.termux/files/usr/bin/env bash
 # | Script instalador do XFCWIN |
 # | Creditos: ©MatheusTGamerPro |
 # | GitHub: https://github.com/MatheusTGamerPro |
