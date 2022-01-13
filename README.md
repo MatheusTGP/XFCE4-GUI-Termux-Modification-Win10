@@ -64,22 +64,23 @@ Vamos iniciar a construção do XFCWin.
 
 Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no clipboard do lado direito)**
 
-    clear && 
+    clear && cd $HOME &&
+    rm -rf setup.sh
     apt install git && 
     git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
     cd XFCE4-GUI-Termux-Modification-Win10 &&
-    bash install.sh
+    mv setup.sh $HOME && cd $HOME && rm -rf XFCE4-GUI-Termux-Modification-Win10 &&
+    bash setup.sh
 
 Após copiar e colar este comando no Termux, ele coletara os recursos do XFCE e logo em seguida irá
-Perguntar a você: **"Do you want to install XFCwin?  y/n: "** ele está perguntando se você deseja instalar o XFCE
-Se você digitar 'y' e dar enter, ele irá iniciar, aocontrario se você digitar 'n' ele irá reverter todo o processo, olha que legal! Criamos uma
-Condição if e else 😆, certo, continuando, agora que você digitar 'y', o processo de instalação inicia
-Com isso ele instala e atualiza os Pacotes do Termux e do XFCE manualmente, está versão suporta várias Arquitetura, provavelmente a sua também funciona 🤔,
+Perguntar a você para *selecionar a Linguagem do script* ele está perguntando se você deseja instalar o XFCE 
+em **Português-BR** ou em **English-US**,digite **1** para Português ou **2** para Inglês. Certo, continuando, agora que você selecionou a linguagem, o processo de instalação inicia
+Com isso ele instala e atualiza os Pacotes do Termux e do XFCE automáticamente, está versão suporta várias Arquitetura, provavelmente a sua também funciona 🤔,
 Depois de produzir e construir automaticamente a instalação, você necessitara aprender os comandos para iniciar o XFCE, más antes precisamos que você
 Instale mais um App, este App e essencial, e claro.. necessário para você poder visualizar a interface, o App se chama [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android),
 Sim você pode instalar ele pela Google Play Store pesquisando, ou pressionando o nome dele acima, agora que você instalou ele,
-Você irá se deparar com uma interface com um pequeno botão no canto inferior direito o botão **"+"** este botão serve para você poder adicionar os servidor do XFCE,
-Normalmente o servidor é ``` localhost:1 ```, adicione isso no campo de Endereço/ Adress, na senha quando você for iniciar o servidor
+Você irá se deparar com uma interface com um pequeno botão no canto inferior direito o botão **"+"** este botão serve para você poder adicionar o servidor do XFCE,
+Normalmente o servidor é ``` localhost:1 ```, adicione isso no campo de Endereço/ Adress. Na senha quando você for iniciar o servidor
 Irá pedir uma senha para ser criada, então fique tranquilo, após fazer está configuração, volte ao Termux depois de ter instalado completamente o XFCWin.
 
 - (**Iniciar Servidor ↓**)
@@ -99,7 +100,7 @@ Recomendo que feche o Computador pelo botão **"logout"** dentro da máquina, el
 Do servidor VNC, por favor, não faça vários comandos como: startvnc startvnc, por se não algums servidores a mais irão iniciar, então,
 Sempre lembre-se de abrir E parar o servidor.
 
-- (**Comandos Extras v1.0.0 ↓**)
+- (**Comandos da versão v1.5.0 ↓**)
 
 Também temos algums comandos extras para melhorar o desempenho e remover alguns itens desnecessários:
 
@@ -112,15 +113,25 @@ O seu Termux. 😁
 
     vncpasswd
 
-Este comando ira pedir uma nova senha de Acesso, para você abrir o servidor, lembre-se:
-**use uma senha de mais de 6 dígitos** ela pode conter letras maiúsculas e minúsculas.
+Este comando ira pedir uma nova senha de Acesso para você abrir o servidor, lembre-se:
+**use uma senha de mais de 6 dígitos** ela pode conter letras maiúsculas e minúsculas e numeros.
+
+↓Você também pode verificar as informações do seu dispositivo (v1.5.0) passando o comando:
+
+    xfcwin-info
+
+↓Caso você queira desinstalar o XFCWin utilize o comando:
+
+    xfcwin-remove
+
+↑Este comando acima, fará com que seja completamente desinstalado o XFCWIN.
 
 **[ Finalização]**
 
 Bem, agora que você aprendeu a como instalar o XFCwin, fica mais fácil né?
 Espero que tenha funcionado corretamente, caso houver algum erro vá em **'issues'** aqui na GitHub para informar
-O problema que ocorreu, caso você desejar Desinstalar o XFCWin, você pode Desinstalar o seu Termux, porquê ainda não construi
-Um script de desinstalação 😶, más nos próximos Updates.. ele virá! 🙂.
+O problema que ocorreu, caso você desejar Desinstalar o XFCWin utilize o comando **xfcwin-remove**,
+Este comando estará disponível na versão **1.5.0-Build1.3**, próximo lançamento.
 
 # Licenças / Créditos
 ⚠️ | Este Repositório está sendo licenciado pelo **GPL-3.0 License**,
@@ -180,10 +191,13 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 - [x] Audacious MP3
 - [x] Vídeo Player
 
+- [x] OpenJDK 17 (Java)-(Versão-1.5.0+)
+- [x] MTPaint (Paint)-(Versão-1.5.0+)
+
 **[ Funcionalidades ]**
 
 - [x] Play Games (in Tests)
-- [x] Som
+- [x] Som em tempo real
 - [x] Otimização
 - [ ] Suporte Android 6.0 -
 - [ ] Minecraft Java (In Tests)
