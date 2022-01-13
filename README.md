@@ -2,7 +2,7 @@
 ![Status](https://img.shields.io/badge/-Termux_GUI-cyan)
 ![Status](https://img.shields.io/badge/Feito%20em-Bash-1f425f.svg)
 ![Status](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
-![Yeah](https://img.shields.io/badge/-Version:_1.0.0-green)
+![Yeah](https://img.shields.io/badge/-Version:_1.5.0-green)
 
 # XFCE4 - Desktop | For Termux without Root
 
@@ -33,7 +33,7 @@ Você pode utilizar..**
 |Tamanho| ![Status](https://img.shields.io/badge/-1.6GB-orange)|
 |Memória Livre recomendada| ![Status](https://img.shields.io/badge/-3~4GB_Free-cyan)|
 |Versão do XFCE| ![Status](https://img.shields.io/badge/-4-cyan)|
-|Versão do Script| ![Status](https://img.shields.io/badge/-v1.0.0e-orange)|
+|Versão do Script| ![Status](https://img.shields.io/badge/-v1.5.0e-orange)|
 |Versão do Android| ![Status](https://img.shields.io/badge/-7.0+-green)|
 |Versão do Termux| ![Status](https://img.shields.io/badge/-v0.117-cyan)|
 |Arquitetura| ![Status](https://img.shields.io/badge/-32Bits_and_64Bits-blue)|
@@ -178,6 +178,7 @@ Please, Add all of the above rights when creating a copy of the repository
 =====
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-03-51.png?raw=true "XFCE-3")
 =====
+![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2022-01-12-10-48-29.png)
 # Informações do XFCWin e Funcionalidades
 Todas as Funções e Programas suportados e pré-lançados na versão atual
 
@@ -196,10 +197,10 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 
 **[ Funcionalidades ]**
 
+- [ ] Versão Lite (Em Construção...)
 - [x] Play Games (in Tests)
 - [x] Som em tempo real
 - [x] Otimização
-- [ ] Suporte Android 6.0 -
 - [ ] Minecraft Java (In Tests)
 - [x] Vídeo Player
 - [x] Teclado e Mouse Externo
@@ -213,11 +214,11 @@ Informações de manutenção e cuidado do Projeto.
 |Status|![Status](https://img.shields.io/badge/-Ativa-green)|
 |Mantenedor|![Mantenedor](https://img.shields.io/badge/-MatheusTGamerPro-red)|
 |Status do Script|![Script](https://img.shields.io/badge/-Instalavel-green)|
-|Versão|![Version](https://img.shields.io/badge/-1.0.0e-magenta)|
+|Versão|![Version](https://img.shields.io/badge/-1.5.0e-magenta)|
 |Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1.12-yellow)|
 
 # Finalização
 
-Versão 1.0.0 Acaba de ser Lançada! Foi Muito complicado mesmo construir
-Aquele script e montar todos os Pacotes de instalação, agradeço muito a todos que utilizar o XFCWin,
-Mais em breve ocorre novas atualizações e aprimoramentos. 🙂
+A Nova versão ```v1.5.0``` esta funcionando e com muitas novas funções
+e Programas, junto com o novo Path em **Português-BR + English-US** um super combo de atualizações
+contem várias novas alterações e otimizamentos, espero que tenha funcionado em seu dispositivo é executado corretamente!
