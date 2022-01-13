@@ -1,15 +1,14 @@
 #! /data/data/com.termux/files/usr/bin/env bash
-# | Script instalador do XFCWIN |
-# | Creditos: ©MatheusTGamerPro |
+# | Script installer XFCWIN |
+# | Credits: ©MatheusTGamerPro |
 # | GitHub: https://github.com/MatheusTGamerPro |
-# | Versão: 1.0.0-estável (build-1.2.1) |
-
+# | Version: 1.5.0-(build-1.3) |
+# | Language: EN-US (chosen by user) |
 # | Hello, This version is translated for EN-US so that most
 # | of people understand the Script, soon the script will have a Language selector to select
 # | your default language, the README soon get update for EN-US, and PT-BR (default)
 
-on_start_install(){
-	# Configurar Tema do Terminal... | Configure Theme of Terminal...
+start_install(){
 	R="\033[01;31m"
     	G="\033[01;32m"
     	Y="\033[01;33m"
@@ -19,128 +18,135 @@ on_start_install(){
     	W="\033[00;00m"
 
     	Stats_Info="$W[$B⌕$W]"
-	Stats_Upload="$W[$G⌾$W]"
+	Stats_Upload="$W[$M*$W]"
 	Stats_Warn="$W[$R!$W]"
 
+
 	cd $HOME
+	sleep 2 && clear
 
+	echo -e "$C┎━─━─━──━──━─━─━─━──━─━──━─━──━─━─━─━─━──━─━──━─━─━──━─━─━┒"
+        echo -e "$Y                      XFCWin Installer"
+        echo -e "              \033[04;38mThe-Full installer from XFCWIN"
+        echo -e "$W     $R Credits$W ⟩ MatheusTGamerPro"
+        echo -e "$W     $R Version$W ⟩ v1.5.0-Full $W"
+        echo -e "$W     $R GitHub$W  ⟩ https://github.com/MatheusTGamerPro"
+        echo -e "$C┖━─━─━──━──━─━─━─━──━─━─━──━─━──━─━─━─━─━──━──━─━──━─━─━─━┚"
 	sleep 2
-	clear
-	echo -e "$Stats_Warn $Y ========≈[ XFCWin - Setup-installer]≈======="
-	echo -e "$Stats_Info $W Crédits:$G MatheusTGamerPro"
-	echo -e "$Stats_Info $W Version:$C v1.0.0e $W"
-	echo -e "    $Y ===========================================$W"
-	sleep 2
-	clear
-# Iniciar Atualizações dos Pacotes
+	echo
 
-	echo -e "$Stats_Upload $W Checking and $M Updating Packages..." $W
-	sleep 2
+	# Start Package Updates
+	echo -e "\033[01;37m[\033[01;35m1/6\033[01;37m] ⟩$W Checking and $M Updating Packages..." $W
+	sleep 1
 
 	apt update -y && apt upgrade -y
-
 	pkg update x11-repo -y
 
 	sleep 2
-	echo -e "$Stats_Upload $R Packages Have Been Updated!"
-	sleep 2
+	echo -e "$Stats_Upload |$R Packages Have Been Updated!"
+	sleep 1
 	clear
-# Instalando XFCE e Pacotes
 
-	echo -e "$Stats_Warn $R Getting Started Installing XFCE and Programs $W"
-	sleep 2
-	echo
-	apt install xfce4 xfce-theme-manager xfce4-goodies pulseaudio wget -y
-	sleep 1
-	apt install tigervnc -y
-	apt install otter-browser audacious vim-gtk python-tkinter -y
+	# Installing XFCE and Packages
+	echo -e "\033[01;37m[\033[01;35m2/6\033[01;37m] ⟩$R Getting Started Installing XFCE and Programs $W"
+	sleep 2 && echo
 
-	sleep 2
-	echo -e "$Stats_Warn Downloading $B Repository... $W"
-	echo
-	sleep 1
+	apt install xfce4 xfce-theme-manager xfce4-goodies pulseaudio wget tigervnc xfce4-session -y
+	apt install otter-browser audacious vim-gtk python-tkinter geany openjdk-17 mtpaint -y
+
+	# Downloading XFCWin...↓
+	sleep 2 && clear
+	echo -e "\033[01;37m[\033[01;35m4/6\033[01;37m] ⟩$M Downloading and Extracting Bootstrap from XFCWin... $W"
+
 	cd $HOME
-	apt install git -y
-	git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10
+	curl -L -o xfcwin-data.tar.xz https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/download/v1.5.0-Full/xfcwin-data-en.tar.xz
+	tar -xvf xfcwin-data-en.tar.xz
 
-	# Configurando o XFCE...
-
-	sleep 2
-	clear
-	echo -e "$Stats_Warn $M Downloading Bootstrap from xfcwin... $W"
-	echo
-	sleep 2
-
-	curl -L -o xfcwin-data.tar.xz https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/download/1.0.0/xfcwin-data.tar.xz
+	# Setting The XFCWin ↓
+	echo -e "\033[01;37m[\033[01;35m5/6\033[01;37m] ⟩$Y Setting XFCWin...$W"
 	sleep 1
-	echo -e "$Stats_Warn $G Unpacking the XFCWIN... $W"
-	tar -xvf xfcwin-data.tar.xz
-	mv Windows10Icons ../usr/share/icons/
 
+	mv Windows10Icons ../usr/share/icons/
+	cp -r  backgrounds/ ../usr/share/
 	cd Desktop/
 	chmod +x Browser.desktop Thunar\ File\ Manager.desktop Leafpad.desktop Xfce\ Terminal.desktop
-	sleep 1
+
+	# Cleanning Caches...↓
+	echo -e "$Stats_Info |$Y Deleting Waste files..."
 
 	cd $HOME
-	sleep 1
-	cp -r  backgrounds/ ../usr/share/
-
-	# Limpando Caches e Residuos
-
-	echo -e "$Stats_Info $Y Deleting Waste files..."
 	rm -rf backgrounds
-    	rm -rf XFCE4-GUI-Termux-Modification-Win10
-    	rm -rf xfcwin-data.tar.xz
+    	rm -rf xfcwin-data-en.tar.xz
 
-	sleep 1
-	clear
-	echo -e "$Stats_Upload $C Generating Commands and Shortcuts...$W"
+	# Creating Commands...↓
+	sleep 1 && clear
+	echo -e "\033[01;37m[\033[01;35m6/6\033[01;37m] ⟩$C Generating Commands and Folders$W"
 
-	echo "vncserver -geometry 1280x720 -listen tcp && export DISPLAY=:1" > $PREFIX/bin/startvnc
-	chmod +x $PREFIX/bin/startvnc
+	echo "vncserver -geometry 1280x720 -listen tcp" > $PREFIX/bin/startvnc
 	echo "vncserver -kill :1" > $PREFIX/bin/stopvnc
+	echo "bash $HOME/.config/.xfcwin/commands/xfcwin-clean-en.sh" > $PREFIX/bin/xfcwin-clean
+	echo "bash $HOME/.config/.xfcwin/commands/xfcwin-guide-en.sh" > $PREFIX/bin/xfcwin-help
+	echo "bash $HOME/.config/.xfcwin/commands/xfcwin-info-en.sh" > $PREFIX/bin/xfcwin-info
+	echo "bash $HOME/.config/.xfcwin/installer-settings/uninstall-en.sh" > $PREFIX/bin/xfcwin-remove
+
+	chmod +x $PREFIX/bin/startvnc
 	chmod +x $PREFIX/bin/stopvnc
-	echo "clear && echo cleaning waste... && rm -rf $HOME/.vnc/localhost:1.log $HOME/.vnc/localhost:2.log && pkg autoclean && sleep 1 && clear" > $PREFIX/bin/xfcwin-clean
 	chmod +x $PREFIX/bin/xfcwin-clean
-	chmod +x .vnc/xstartup
+	chmod +x $PREFIX/bin/xfcwin-help
+	chmod +x $PREFIX/bin/xfcwin-info
+	chmod +x $PREFIX/bin/xfcwin-remove
+	chmod +x $HOME/.vnc/xstartup
 
-	sleep 2
-	clear
+	mkdir $HOME/Downloads
+	mkdir $HOME/Documents
+	mkdir $HOME/Music
+	mkdir $HOME/Pictures
+	mkdir $HOME/Games
 
-	echo -e "$Sats_Warn $G XFCwin Installed successfully!"
+	# Installed...↓
+	sleep 2 && clear
+	echo -e "\033[01;37m[\033[01;35mCompleted\033[01;37m] ⟩$G XFCWin Installed successfully!"
 	sleep 1
-	echo -e "$Stats_Warn $W To start the server use: $C startvnc,$W to stop it you use: $R stopvnc."
-	sleep 2
-	echo
-	echo -e "$Y Enjoy!! $W"
+	echo -e "$W To start the server use: $C startvnc"
+	echo -e "$W to stop it you use: $R stopvnc."
+	sleep 1
+	echo -e "$Y Enjoy. :D $W"
+				
+	rm -rf $HOME/install-en.sh
 
 	exit
 }
 
-on_cancel_install(){
+cancel_install(){
 	clear
 	echo -e "\033[01;31mInstallation Canceled!\033[01;37m"
-	sleep 2
+	sleep 1
 	clear
 }
 
 ask_setup(){
 	clear
+	echo -e "\033[01;33m"
+
 	read -p 'Do you want to start the installation? y/n: ' ask_setup
 	case $ask_setup in
-		y|Y|s|sim|Sim|SIm|SIM ) on_start_install ;;
-		n|N|no|nao|Nao|NAo|Não|NÃo|NÃO ) on_cancel_install ;;
-		* ) echo -e "\033[01;31mOption Null\033[00;00m" && sleep 1 && ask_setup  ;; 
+		y|Y ) start_install ;;
+		n|N ) cancel_install ;;
+		* ) echo -e "\033[01;31mThis option does not exist!\033[00;00m" && sleep 1 && ask_setup  ;; 
 esac
 }
 
-if [ -e $PREFIX/bin/xfce4-session ]; then
+if [ -e $HOME/.config/ ]; then
 	R="\033[01;31m"
 	G="\033[01;32m"
+	B="\033[01;34m"
+	M="\033[01;35m"
+	W="\033[01;37m"
+
 	Stats_Info="$W[$B⌕$W]"
 	sleep 1
 	clear
-	echo -e "$Stats_Info$R Sorry,$Y I verified that you has already installed."
+	echo -e "$Stats_Info $M⟩$R Sorry,$Y I verified that you has already installed."
 else
 	ask_setup
 fi
