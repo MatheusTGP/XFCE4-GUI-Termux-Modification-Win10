@@ -66,6 +66,7 @@ Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no cli
 
     clear && cd $HOME &&
     rm -rf setup.sh
+    apt update && apt upgrade -y
     apt install git && 
     git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
     cd XFCE4-GUI-Termux-Modification-Win10 &&
