@@ -60,7 +60,7 @@ echo -e "$C┖━─━─━──━──━─━─━─━──━─━
 	echo -e "\033[01;37m[\033[01;35m4/6\033[01;37m] ⟩$M Baixando e Extraíndo bootstrap do XFCWIN... $W"
 
 	cd $HOME
-	curl -L -o xfcwin-data.tar.xz https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/download/v1.5.0-Full/xfcwin-data-pt.tar.xz
+	curl -L -o xfcwin-data-pt.tar.xz https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/download/v1.5.0-Full/xfcwin-data-pt.tar.xz
 	tar -xvf xfcwin-data-pt.tar.xz
 
 	# Configurando o XFCWIN ↓
