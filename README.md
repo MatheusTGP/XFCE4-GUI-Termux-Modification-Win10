@@ -1,8 +1,8 @@
 ![Yeah](https://img.shields.io/badge/-HappyNewYear_2022!-magenta)
-![Status](https://img.shields.io/badge/-Termux_GUI-cyan)
+![Status](https://img.shields.io/badge/-Termux_GUI_X11-cyan)
 ![Status](https://img.shields.io/badge/Feito%20em-Bash-1f425f.svg)
+![Yeah](https://img.shields.io/badge/-Version:_1.5.0_Build1.3-green)
 ![Status](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
-![Yeah](https://img.shields.io/badge/-Version:_1.5.0-green)
 
 # XFCE4 - Desktop | For Termux without Root
 
