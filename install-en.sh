@@ -2,7 +2,7 @@
 # | Script installer XFCWIN |
 # | Credits: ©MatheusTGamerPro |
 # | GitHub: https://github.com/MatheusTGamerPro |
-# | Version: 1.5.0-(build-1.3) |
+# | Version: 1.5.0-(build-1.4) |
 # | Language: EN-US (chosen by user) |
 # | Hello, This version is translated for EN-US so that most
 # | of people understand the Script, soon the script will have a Language selector to select
@@ -69,7 +69,7 @@ start_install(){
 	mv Windows10Icons ../usr/share/icons/
 	cp -r  backgrounds/ ../usr/share/
 	cd Desktop/
-	chmod +x Browser.desktop Thunar\ File\ Manager.desktop Leafpad.desktop Xfce\ Terminal.desktop
+	chmod +x *
 
 	# Cleanning Caches...↓
 	echo -e "$Stats_Info |$Y Deleting Waste files..."
