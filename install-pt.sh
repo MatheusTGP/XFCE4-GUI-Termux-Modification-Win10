@@ -2,7 +2,7 @@
 # | Script instalador XFCWIN |
 # | Creditos: ©MatheusTGamerPro |
 # | GitHub: https://github.com/MatheusTGamerPro |
-# | Versão: 1.5.0-(build-1.3) |
+# | Versão: 1.5.0-(build-1.4) |
 # | Linguagem: PT-BR (chosen by user) |
 
 # | Este script está atualizado para a tradução
@@ -70,7 +70,7 @@ echo -e "$C┖━─━─━──━──━─━─━─━──━─━
 	mv Windows10Icons ../usr/share/icons/
 	cp -r  backgrounds/ ../usr/share/
 	cd Desktop/
-	chmod +x Browser.desktop Thunar\ File\ Manager.desktop Leafpad.desktop Xfce\ Terminal.desktop
+	chmod +x *
 
 	# Limpando algums caches que o script encontrar...↓
 	echo -e "$Stats_Info |$Y Excluindo Resíduos e caches..."
