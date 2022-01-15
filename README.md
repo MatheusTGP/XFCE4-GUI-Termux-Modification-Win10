@@ -35,7 +35,7 @@ Você pode utilizar..**
 |Versão do XFCE| ![Status](https://img.shields.io/badge/-4-cyan)|
 |Versão do Script| ![Status](https://img.shields.io/badge/-v1.5.0e-orange)|
 |Versão do Android| ![Status](https://img.shields.io/badge/-7.0+-green)|
-|Versão do Termux| ![Status](https://img.shields.io/badge/-v0.117-cyan)|
+|Versão do Termux| ![Status](https://img.shields.io/badge/-v0.118-cyan)|
 |Arquitetura| ![Status](https://img.shields.io/badge/-32Bits_and_64Bits-blue)|
 |Construção| ![Status](https://img.shields.io/badge/-Automatica-green)|
 |RAM Mínima| ![Status](https://img.shields.io/badge/-2GB_Minimo-cyan)|
@@ -45,9 +45,10 @@ Você pode utilizar..**
 **Nota**: Está versão não requer acesso a Root no dispositivo,
 Fique tranquilo. Por Favor, utilize a última versão disponível do Termux.
 
+**Nota 2**: Utilize a Nova versão do Termux mais recente a: **v0.118**
 # Download Termux & VNC
 Termux:
-[Download](https://f-droid.org/repo/com.termux_117.apk)
+[Download](https://f-droid.org/repo/com.termux_118.apk)
 
 VNC Viewer:
 [Download](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
