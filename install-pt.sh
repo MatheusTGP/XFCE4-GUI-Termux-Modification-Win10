@@ -53,7 +53,7 @@ echo -e "$C┖━─━─━──━──━─━─━─━──━─━
 	sleep 2 && echo
 
 	apt install xfce4 xfce-theme-manager xfce4-goodies pulseaudio wget tigervnc xfce4-session -y
-	apt install otter-browser audacious vim-gtk python-tkinter geany openjdk-17 mtpaint -y
+	apt install otter-browser audacious vim-gtk python-tkinter geany openjdk-17 mtpaint qt-creator -y
 
 	# Baixando pacote do XFCWin...↓
 	sleep 2 && clear
