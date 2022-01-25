@@ -16,7 +16,7 @@ Você pode acessar a Internet com o navegador, assistir vídeos com Vídeo Playe
 Escutar música com **Audacious**e muito mais, veja a vídeos no YouTube pelo Navegador e entre várias outras funções, Logo abaixo, você terá um pequeno tutorial Completo
 da instalação do XFCWin no seu Dispositivo.
 
-# Oque é este computador?
+# Oque é este desktop?
 Está interface gráfica e uma versão do [XFCE4](https://www.xfce.org/) Modificado com algumas alterações sendo temas e funcionalidades,
 Está versão do XFCE pode ser executada pelo App emulador de terminal **Termux**, o XFCE Cria uma interface (desktop),
 Para que o usuário possa utilizar Teclado e Mouse para configura-la com Papel de parede, programas, Temas, e entre outras variedades de funções, está versão
@@ -26,7 +26,7 @@ Para que o usuário possa utilizar Teclado e Mouse para configura-la com Papel d
 O próprio VNC disponibiliza o teclado e Mouse virtual, más caso você tenha um teclado e Mouse Externo,
 Você pode utilizar..**
 
-# Informações do XFCWin (XFCE)
+# Informações do XFCWin
 |Informações|Respostas|
 |--|--|
 |Nome Modificado| ![Status](https://img.shields.io/badge/-XFCWin-green)|
@@ -46,7 +46,7 @@ Você pode utilizar..**
 Fique tranquilo. Por Favor, utilize a última versão disponível do Termux.
 
 **Nota 2**: Utilize a Nova versão do Termux mais recente a: **v0.118**
-# Download Termux & VNC
+# Instale o Termux & VNC
 Termux:
 [Download](https://f-droid.org/repo/com.termux_118.apk)
 
@@ -135,7 +135,7 @@ Espero que tenha funcionado corretamente, caso houver algum erro vá em **'issue
 O problema que ocorreu, caso você desejar Desinstalar o XFCWin utilize o comando **xfcwin-remove**,
 Este comando estará disponível na versão **1.5.0-Build1.3**, próximo lançamento.
 
-# Licenças / Créditos
+# Licenças & Créditos
 ⚠️ | Este Repositório está sendo licenciado pelo **GPL-3.0 License**,
 caso você for fazer uma cópia desse repositorio, emita os Créditos juntamente com a mesma licença e os direitos devidos!
 
@@ -186,34 +186,35 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 
 **[Programas já Instalados]**
 
-- [x] Geany IDLE
-- [x] Navegador (Otter-Browser)
-- [x] Gerenciador de arquivos (Thunar)
-- [x] Python 3.10.1 (Latest)
-- [x] Vim-GTK. Entre Outros...
-- [x] Audacious MP3
-- [x] Vídeo Player
+- [x] Navegadores: Otter-browser, netsurf
+- [x] Gerenciadores: Thunar File Manager
+- [x] IDLEs: Python3.10, Geany, clang
+- [x] Editores: Vim-GTK, nano, leafpad, MTPaint
+- [x] Players: Audacious MP3, Vídeo Player
+- [x] Outros: Java 17 (JDK)
 
-- [x] OpenJDK 17 (Java)-(Versão-1.5.0+)
-- [x] MTPaint (Paint)-(Versão-1.5.0+)
+**Muitos outros programas contem no XFCWin...**
 
-**[ Funcionalidades ]**
+**[ Funcionalidades / Portabilidades ]**
 
 - [ ] Versão Lite (Em Construção...)
-- [x] Play Games (in Tests)
-- [x] Som em tempo real
-- [x] Otimização
-- [ ] Minecraft Java (In Tests)
-- [x] Vídeo Player
+- [x] Jogar Games
+- [x] Som em tempo real (PulseAudio)
 - [x] Teclado e Mouse Externo
-- [x] Suporte Proot
-- [ ] QTCreator IDLE (Added Soon...😳)
+- [x] Suporte Proot-Distro
+- [ ] QTCreator (Added Soon...😳)
+
+**[ Bugs Conhecidos ]**
+
+- [x] Se forçar uma nova instalação sobrescrevendo o já instalado, pode causar erros nos ícones.
+- [x] Em Arquiteturas ARM64 (64-bits) tem chances de acontecer lentidoes (corrigindo...)
+- [x] FireFox não suporta áudio em 32-bits (Testes)
 
 # Manutenção do Projeto
 Informações de manutenção e cuidado do Projeto.
 |Informações|Status| 
 |--|--|
-|Status|![Status](https://img.shields.io/badge/-Ativa-green)|
+|Status|![Status](https://img.shields.io/badge/-Ativo-green)|
 |Mantenedor|![Mantenedor](https://img.shields.io/badge/-MatheusTGamerPro-red)|
 |Status do Script|![Script](https://img.shields.io/badge/-Instalavel-green)|
 |Versão|![Version](https://img.shields.io/badge/-1.5.0e-magenta)|
@@ -223,4 +224,4 @@ Informações de manutenção e cuidado do Projeto.
 
 A Nova versão ```v1.5.0``` esta funcionando e com muitas novas funções
 e Programas, junto com o novo Path em **Português-BR + English-US** um super combo de atualizações
-contem várias novas alterações e otimizamentos, espero que tenha funcionado em seu dispositivo é executado corretamente!
+contem várias novas alterações e otimizamentos, espero que tenha funcionado em seu dispositivo é executado corretamente.
