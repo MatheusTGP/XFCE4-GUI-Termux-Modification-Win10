@@ -209,6 +209,7 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 - [x] Se forçar uma nova instalação sobrescrevendo o já instalado, pode causar erros nos ícones.
 - [x] Em Arquiteturas ARM64 (64-bits) tem chances de acontecer lentidoes (corrigindo...)
 - [x] FireFox não suporta áudio em 32-bits (Testes)
+- [x] Se tiver mais de 32 Processos abertos o Termux irá crashar (Android 12).
 
 # Manutenção do Projeto
 Informações de manutenção e cuidado do Projeto.
