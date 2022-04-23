@@ -1,14 +1,15 @@
 ![ForYou](https://img.shields.io/badge/-Created_with_❤️-gray)
 ![Interface](https://img.shields.io/badge/-Termux_GUI_X11-cyan)
 ![Developed with](https://img.shields.io/badge/Construido%20em-Bash-1f425f.svg)
-![Version](https://img.shields.io/badge/-Version:_1.5.0_Build_1.3-blue)
+![Version](https://img.shields.io/badge/-Version_Script:_1.5.0_Build_1.3-blue)
+![News](https://img.shields.io/badge/NOVO:_XFCWin_Installer_em_APK-Disponivel_v1.0-green)
 ![Support](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
 
-# XFCE4 - Desktop | For Termux without Root
+<h1 align="center"> XFCWIN-Desktop For Termux without Root</h1>
 
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE with Theme Dark")
 
-Nesse Projeto, você poderá executar uma SUPER Interface Gráfica no seu dispositivo Android, sem Precisar de ROOT (Enraizamento),
+Nesse Projeto, você poderá executar um dedsktop no seu dispositivo Android, sem precisar de ROOT (Enraizamento),
 com ele você pode acessar vários programas sendo, navegador, IDLEs, Java, Python, Entre outro programas, está interface e Leve e com uma ótima Otimização.
 
 Execute Programas para Programar sendo em: **Java, Python, NodeJS, C++/C.**
@@ -16,16 +17,20 @@ Você pode acessar a Internet com o navegador, assistir vídeos com Vídeo Playe
 Escutar música com **Audacious**e muito mais, veja a vídeos no YouTube pelo Navegador e entre várias outras funções, Logo abaixo, você terá um pequeno tutorial Completo
 da instalação do XFCWin no seu Dispositivo.
 
-# Navegação
+<h1 align="center">Navegação</h1>
+
 - [Sobre o Desktop](#oque-é-este-desktop)
 - [Informações do XFCWin](#informações-do-xfcwin)
-- [Como baixar e instalar](#como-baixar-e-instalar)
+- [Instale o XFCWin-Installer em APK](#baixar-instalador-do-xfcwin-em-apk)
+- [Aprenda a baixar, instalar, e comandos](#tutorial-de-instalação-e-download)
 - [Screenshots](#screenshots-do-xfcwin)
 - [Funcionalidades](#informações-do-xfcwin-e-funcionalidades)
+- [Manutenção](#manutenção-do-projeto)
 - [Licenses & Crédits](#licenses-and-credits)
 - [Final](#finalização)
 
-# Oque é este desktop
+<h1 align="center">Oque é este desktop</h1>
+
 Está interface gráfica e uma versão do [XFCE4](https://www.xfce.org/) Modificado com algumas alterações sendo temas e funcionalidades,
 Está versão do XFCE pode ser executada pelo App emulador de terminal **Termux**, o XFCE Cria uma interface (desktop),
 Para que o usuário possa utilizar Teclado e Mouse para configura-la com Papel de parede, programas, Temas, e entre outras variedades de items, está versão
@@ -35,7 +40,8 @@ Para que o usuário possa utilizar Teclado e Mouse para configura-la com Papel d
 O próprio VNC disponibiliza o teclado e Mouse virtual, más caso você tenha um teclado e Mouse Externo,
 Você pode utilizar..**
 
-# Informações do XFCWin
+<h1 align="center">Informações do XFCWin</h1>
+
 |Informações|Respostas|
 |--|--|
 |Nome Modificado| ![Status](https://img.shields.io/badge/-XFCWin-green)|
@@ -55,14 +61,20 @@ Você pode utilizar..**
 Fique tranquilo. Por Favor, utilize a última versão disponível do Termux.
 
 **Nota 2**: Utilize a Nova versão do Termux mais recente a: **v0.118**
-# Instale o Termux & VNC
-Termux:
-[Download](https://f-droid.org/repo/com.termux_118.apk)
 
-VNC Viewer:
-[Download](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
+<h1 align="center">Baixar instalador do XFCWin em APK</h1>
 
-# Como Baixar e Instalar
+Ola, agora você poderá pegar o script de instalação, e configurar ele do modo que desejar,
+para isso você pode baixar o APK do nosso 'instalador', caso não queira baixar via APK, faça as etapas a abaixo!
+
+📥 **| XFCWin-installer em APK:** [XFCWin-Installer.apk](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/tag/v1.0-apk)
+
+Para você que deseja coletar o script instalador pelo APK acima, é muito simples...
+basta que você configure do modo que você desejar ao abrir o aplicativo, e pressionar o botão de "Pegar script de instalação", depois
+irá abrir o seu Termux, e você vai copiar, colar e executar.
+
+<h1 align="center">Tutorial de instalação e Download</h1>
+
 Bem, como vocês viram ali em cima, a construção do código é **automática**, sem necessidade de mover, extrair arquivos manualmente,
 Aqui em baixo terá algums comandos que você necessitara para instalar o XFCWin (XFCE), para isso você precisa ter o Termux na última versão instalada,
 Vá ali em cima em "Download Termux" e clique para começar a baixar.
@@ -144,7 +156,8 @@ Espero que tenha funcionado corretamente, caso houver algum erro vá em **'issue
 O problema que ocorreu, caso você desejar Desinstalar o XFCWin utilize o comando **xfcwin-remove**,
 Este comando estará disponível na versão **1.5.0**.
 
-# Screenshots do XFCWin
+<h1 align="center">Screenshots do XFCWin</h1>
+
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-03-27.png?raw=true "XFCE-1")
 =====
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE-2")
@@ -153,19 +166,18 @@ Este comando estará disponível na versão **1.5.0**.
 =====
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2022-01-12-10-48-29.png)
 
-# Informações do XFCWin e Funcionalidades
+<h1 align="center">Informações do XFCWin e Funcionalidades</h1>
+
 Todas as Funções e Programas suportados e pré-lançados na versão atual
 
-**Programas já Instalados**
+**[ Programas já Instalados ]**
 
-- [x] Navegadores: Otter-browser, netsurf
-- [x] Gerenciadores: Thunar File Manager
-- [x] IDLEs: Python3.10, Geany, clang
-- [x] Editores: Vim-GTK, nano, leafpad, MTPaint
-- [x] Players: Audacious MP3, Vídeo Player
-- [x] Outros: Java 17 (JDK)
-
-**Muitos outros programas contem no XFCWin...**
+- Navegadores: Otter-browser, netsurf
+- Gerenciadores: Thunar File Manager
+- IDLEs: Python3.10, Geany, clang
+- Editores: Vim-GTK, nano, leafpad, MTPaint
+- Players: Audacious MP3, Vídeo Player
+- Outros: Java 17 (JDK)
 
 **[ Funcionalidades / Portabilidades ]**
 
@@ -182,8 +194,10 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 - FireFox não suporta áudio em 32-bits (Testes) (Firefox por Ubuntu)
 - Se tiver mais de 32 Processos abertos o Termux irá crashar (Android 12)
 
-# Manutenção do Projeto
-Informações de manutenção e cuidado do Projeto.
+**Muitos outros programas contem no XFCWin...**
+
+<h1 align="center">Manutenção do Projeto</h1>
+
 |Informações|Status| 
 |--|--|
 |Status|![Status](https://img.shields.io/badge/-Ativo-green)|
@@ -229,7 +243,12 @@ Please, Add all of the above rights when creating a copy of the repository
 Or if you are going to make a distribution.
 **🎯 Thanks to all the other developers for providing the themes and icons for XFCWin.**
 
-# Finalização
+<h1 align="center">Finalização</h1>
+
 A Nova versão ```v1.5.0``` esta funcionando e com muitas novas funções
 e Programas, junto com o novo Path em **Português-BR + English-US** um super combo de atualizações
 contem várias novas alterações e otimizamentos, espero que tenha funcionado em seu dispositivo é executado corretamente.
+
+Agora é possível voce instalar o nosso novo instalador em APK, onde possibilita voce de coletar um script de instalacao
+personalizado do jeito que voce preferir, a primeira versao ja esta disponivel para Dowload aqui na Releases da nossa pagina. desca aqui em baixo
+para fazer o download do XFCWin-Installer.apk
