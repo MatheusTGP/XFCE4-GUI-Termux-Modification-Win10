@@ -1,8 +1,8 @@
-![Yeah](https://img.shields.io/badge/-HappyNewYear_2022!-magenta)
-![Status](https://img.shields.io/badge/-Termux_GUI_X11-cyan)
-![Status](https://img.shields.io/badge/Feito%20em-Bash-1f425f.svg)
-![Yeah](https://img.shields.io/badge/-Version:_1.5.0_Build1.3-green)
-![Status](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
+![ForYou](https://img.shields.io/badge/-Created_with_❤️-gray)
+![Interface](https://img.shields.io/badge/-Termux_GUI_X11-cyan)
+![Developed with](https://img.shields.io/badge/Construido%20em-Bash-1f425f.svg)
+![Version](https://img.shields.io/badge/-Version:_1.5.0_Build_1.3-blue)
+![Support](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
 
 # XFCE4 - Desktop | For Termux without Root
 
@@ -16,11 +16,20 @@ Você pode acessar a Internet com o navegador, assistir vídeos com Vídeo Playe
 Escutar música com **Audacious**e muito mais, veja a vídeos no YouTube pelo Navegador e entre várias outras funções, Logo abaixo, você terá um pequeno tutorial Completo
 da instalação do XFCWin no seu Dispositivo.
 
-# Oque é este desktop?
+# Navegação
+- [Sobre o Desktop](#oque-é-este-desktop)
+- [Informações do XFCWin](#informações-do-xfcwin)
+- [Como baixar e instalar](#como-baixar-e-instalar)
+- [Screenshots](#screenshots-do-xfcwin)
+- [Funcionalidades](#informações-do-xfcwin-e-funcionalidades)
+- [Licenses & Crédits](#licenses-and-credits)
+- [Final](#finalização)
+
+# Oque é este desktop
 Está interface gráfica e uma versão do [XFCE4](https://www.xfce.org/) Modificado com algumas alterações sendo temas e funcionalidades,
 Está versão do XFCE pode ser executada pelo App emulador de terminal **Termux**, o XFCE Cria uma interface (desktop),
-Para que o usuário possa utilizar Teclado e Mouse para configura-la com Papel de parede, programas, Temas, e entre outras variedades de funções, está versão
-É completamente executada pelo dispositivo, **você não precisa ter acesso a Root**!, Está versão é otimizada e com aplicações leves para o uso.
+Para que o usuário possa utilizar Teclado e Mouse para configura-la com Papel de parede, programas, Temas, e entre outras variedades de items, está versão
+É completamente executada pelo dispositivo, **você não precisa ter acesso a Root**!, Está versão é otimizada e com aplicações leves para o uso, sem precisar utilizar muita CPU.
 
 🚨 | **Você não precisa ter Teclado e Mouse Externo para utilizar o XFCWin,
 O próprio VNC disponibiliza o teclado e Mouse virtual, más caso você tenha um teclado e Mouse Externo,
@@ -53,7 +62,7 @@ Termux:
 VNC Viewer:
 [Download](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
 
-# Como Baixar & Instalar?
+# Como Baixar e Instalar
 Bem, como vocês viram ali em cima, a construção do código é **automática**, sem necessidade de mover, extrair arquivos manualmente,
 Aqui em baixo terá algums comandos que você necessitara para instalar o XFCWin (XFCE), para isso você precisa ter o Termux na última versão instalada,
 Vá ali em cima em "Download Termux" e clique para começar a baixar.
@@ -98,7 +107,7 @@ Para você parar a execução do servidor e sair da máquina, vá no botão de *
 
     stopvnc
 
-Recomendo que feche o Computador pelo botão **"logout"** dentro da máquina, ele também irá parar o processo
+Recomendo que feche o desktop pelo botão **"logout"** dentro da máquina, ele também irá parar o processo
 Do servidor VNC, por favor, não faça vários comandos como: startvnc startvnc, por se não algums servidores a mais irão iniciar, então,
 Sempre lembre-se de abrir E parar o servidor.
 
@@ -133,45 +142,7 @@ Este comando ira pedir uma nova senha de Acesso para você abrir o servidor, lem
 Bem, agora que você aprendeu a como instalar o XFCwin, fica mais fácil né?
 Espero que tenha funcionado corretamente, caso houver algum erro vá em **'issues'** aqui na GitHub para informar
 O problema que ocorreu, caso você desejar Desinstalar o XFCWin utilize o comando **xfcwin-remove**,
-Este comando estará disponível na versão **1.5.0-Build1.3**, próximo lançamento.
-
-# Licenças & Créditos
-⚠️ | Este Repositório está sendo licenciado pelo **GPL-3.0 License**,
-caso você for fazer uma cópia desse repositorio, emita os Créditos juntamente com a mesma licença e os direitos devidos!
-
-Como vocês viram, nessa versão contem alguns Temas e Cursores direnciados, os créditos dos desenvolvedores do Tema do
-Windows 10 Dark & Light está abaixo
-
-**[ Themes ]**
-
-**Crédits Author:** B00merang-Project
-
-**Crédits GitHub | Win Light:** https://github.com/B00merang-Project/Windows-10
-
-**Crédits GitHub | Win Dark:** https://github.com/B00merang-Project/Windows-10-Dark
-
-**[ Cursors ]**
-
-**Crédits Author:** YEYUSHENGFAN258
-
-**Crédits GitHub:** https://github.com/yeyushengfan258/ArcStarry-Cursors
-
-**[ Theme Ícons ]**
-
-**Crédits Author:** dindin @ G41TR3
-
-**Crédits GitHub:** https://github.com/dindinG41TR3/windows10iconthemes
-
-**🚨 Todos os direitos reservados para os Temas, Ícones, e cursores!**
-
-**[ Script ]**
-
-**Crédits Author:** MatheusTGamerPro (My)
-
-Please, Add all of the above rights when creating a copy of the repository
- Or if you are going to make a distribution.
-
-**Crédits GitHub:** https://github.com/MatheusTGamerPro
+Este comando estará disponível na versão **1.5.0**.
 
 # Screenshots do XFCWin
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-03-27.png?raw=true "XFCE-1")
@@ -181,10 +152,11 @@ Please, Add all of the above rights when creating a copy of the repository
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2021-12-30-12-03-51.png?raw=true "XFCE-3")
 =====
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/TGP-Projects/Fotos/Screenshot_2022-01-12-10-48-29.png)
+
 # Informações do XFCWin e Funcionalidades
 Todas as Funções e Programas suportados e pré-lançados na versão atual
 
-**[Programas já Instalados]**
+**Programas já Instalados**
 
 - [x] Navegadores: Otter-browser, netsurf
 - [x] Gerenciadores: Thunar File Manager
@@ -197,19 +169,18 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 
 **[ Funcionalidades / Portabilidades ]**
 
-- [ ] Versão Lite (Em Construção...)
-- [x] Jogar Games
-- [x] Som em tempo real (PulseAudio)
-- [x] Teclado e Mouse Externo
-- [x] Suporte Proot-Distro
-- [ ] QTCreator (Added Soon...😳)
+- Versão Lite (Em Construção...)
+- Jogar Games (depende)
+- Som em tempo real (PulseAudio)
+- Teclado e Mouse Externo
+- Suporte Proot-Distro
+- QTCreator
 
 **[ Bugs Conhecidos ]**
 
-- [x] Se forçar uma nova instalação sobrescrevendo o já instalado, pode causar erros nos ícones.
-- [x] Em Arquiteturas ARM64 (64-bits) tem chances de acontecer lentidoes (corrigindo...)
-- [x] FireFox não suporta áudio em 32-bits (Testes)
-- [x] Se tiver mais de 32 Processos abertos o Termux irá crashar (Android 12).
+- Se forçar uma nova instalação sobrescrevendo o já instalado, pode causar erros nos ícones.
+- FireFox não suporta áudio em 32-bits (Testes) (Firefox por Ubuntu)
+- Se tiver mais de 32 Processos abertos o Termux irá crashar (Android 12)
 
 # Manutenção do Projeto
 Informações de manutenção e cuidado do Projeto.
@@ -221,8 +192,44 @@ Informações de manutenção e cuidado do Projeto.
 |Versão|![Version](https://img.shields.io/badge/-1.5.0e-magenta)|
 |Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1.12-yellow)|
 
-# Finalização
+# Licenses and Credits
+⚠️ | Este Repositório está sendo licenciado pelo **GPL-3.0 License**,
+caso você for fazer uma cópia desse repositorio, emita os Créditos juntamente com a mesma licença e os direitos devidos!
 
+Como vocês viram, nessa versão contem alguns Temas e Cursores direnciados, os créditos dos desenvolvedores do Tema do
+Windows 10 Dark & Light está abaixo
+
+```Themes used:```
+
+> **Crédits Author:** B00merang-Project
+
+> **Crédits GitHub | Win Light:** https://github.com/B00merang-Project/Windows-10
+
+> **Crédits GitHub | Win Dark:** https://github.com/B00merang-Project/Windows-10-Dark
+
+**Cursors used:**
+
+> **Crédits Author:** YEYUSHENGFAN258
+
+> **Crédits GitHub:** https://github.com/yeyushengfan258/ArcStarry-Cursors
+
+**Theme Ícons used:**
+
+> **Crédits Author:** dindin @ G41TR3
+
+> **Crédits GitHub:** https://github.com/dindinG41TR3/windows10iconthemes
+
+**XFCWin Script Developer:**
+
+> **Crédits Author:** MatheusTGP (My)
+
+> **Crédits GitHub:** https://github.com/MatheusTGamerPro
+
+Please, Add all of the above rights when creating a copy of the repository
+Or if you are going to make a distribution.
+**🎯 Thanks to all the other developers for providing the themes and icons for XFCWin.**
+
+# Finalização
 A Nova versão ```v1.5.0``` esta funcionando e com muitas novas funções
 e Programas, junto com o novo Path em **Português-BR + English-US** um super combo de atualizações
 contem várias novas alterações e otimizamentos, espero que tenha funcionado em seu dispositivo é executado corretamente.
