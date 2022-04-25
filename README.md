@@ -86,6 +86,8 @@ Vamos iniciar a construção do XFCWin.
 
 Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no clipboard do lado direito)**
 
+**Versão Completa**:
+
     clear && cd $HOME &&
     rm -rf setup.sh
     apt update && apt upgrade -y
@@ -95,16 +97,39 @@ Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no cli
     mv setup.sh $HOME && cd $HOME && rm -rf XFCE4-GUI-Termux-Modification-Win10 &&
     bash setup.sh
 
+Agora caso você desejar uma versão mais leve para uso em dispositivos fracos utilize o comando a baixo:
+
+**Versão Português-BR Lite**:
+
+    clear && cd $HOME &&
+    rm -rf setup.sh
+    apt update && apt upgrade -y
+    apt install git && 
+    git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+    cd XFCE4-GUI-Termux-Modification-Win10 &&
+    cd xfcwin-lite && bash install-lite-pt.sh
+
+**Versão Ingles-EN Lite**:
+
+    clear && cd $HOME &&
+    rm -rf setup.sh
+    apt update && apt upgrade -y
+    apt install git && 
+    git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+    cd XFCE4-GUI-Termux-Modification-Win10 &&
+    cd xfcwin-lite && bash install-lite-en.sh
+
 Após copiar e colar este comando no Termux, ele coletara os recursos do XFCE e logo em seguida irá
 Perguntar a você para *selecionar a Linguagem do script* ele está perguntando se você deseja instalar o XFCE 
-em **Português-BR** ou em **English-US**,digite **1** para Português ou **2** para Inglês. Certo, continuando, agora que você selecionou a linguagem, o processo de instalação inicia
-Com isso ele instala e atualiza os Pacotes do Termux e do XFCE automáticamente, está versão suporta várias Arquitetura, provavelmente a sua também funciona 🤔,
+em **Português-BR** ou em **English-US**,digite **1** para Português ou **2** para Inglês. Caso você esteja utilizando a versão Lite,
+você só precisa copiar o código e executar no Termux, de acordo você selecionar o idioma da versão acima. Certo, continuando, agora que você selecionou a linguagem, o processo de instalação inicia
+com isso ele instala e atualiza os Pacotes do Termux e do XFCE automáticamente, está versão suporta várias Arquiteturas, provavelmente a sua também funciona 🤔,
 Depois de produzir e construir automaticamente a instalação, você necessitara aprender os comandos para iniciar o XFCE, más antes precisamos que você
 Instale mais um App, este App e essencial, e claro.. necessário para você poder visualizar a interface, o App se chama [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android),
-Sim você pode instalar ele pela Google Play Store pesquisando, ou pressionando o nome dele acima, agora que você instalou ele,
-Você irá se deparar com uma interface com um pequeno botão no canto inferior direito o botão **"+"** este botão serve para você poder adicionar o servidor do XFCE,
-Normalmente o servidor é ``` localhost:1 ```, adicione isso no campo de Endereço/ Adress. Na senha quando você for iniciar o servidor
-Irá pedir uma senha para ser criada, então fique tranquilo, após fazer está configuração, volte ao Termux depois de ter instalado completamente o XFCWin.
+sim você pode instalar ele pela Google Play Store pesquisando, ou pressionando o nome dele acima, agora que você instalou ele,
+você irá se deparar com uma interface com um pequeno botão no canto inferior direito o botão **"+"** este botão serve para você poder adicionar o servidor do XFCE,
+Normalmente o servidor é ``` localhost:1 ```, adicione isso no campo de Endereço / Adress. Na senha quando você for iniciar o servidor
+irá pedir uma senha para ser criada, então fique tranquilo, após fazer está configuração, volte ao Termux depois de ter instalado completamente o XFCWin.
 
 - (**Iniciar Servidor ↓**)
 
