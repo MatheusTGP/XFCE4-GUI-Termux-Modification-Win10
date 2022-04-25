@@ -212,6 +212,7 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 - Teclado e Mouse Externo
 - Suporte Proot-Distro
 - QTCreator
+- Versão Lite!
 
 **[ Bugs Conhecidos ]**
 
@@ -230,6 +231,27 @@ Todas as Funções e Programas suportados e pré-lançados na versão atual
 |Status do Script|![Script](https://img.shields.io/badge/-Instalavel-green)|
 |Versão|![Version](https://img.shields.io/badge/-1.5.0e-magenta)|
 |Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1.12-yellow)|
+
+<h1 align="center"> Planos Atuais e Futuros </h1>
+
+**Versão Lite:**
+
+- [x] 1.0 (Oficial)
+- [ ] 2.0
+- [ ] 3.0
+- [ ] ...
+
+**Versão completa:**
+
+- [x] 1.0.0 (Beta)
+- [x] 1.5.0 (Oficial)
+- [ ] 2.0.0
+
+**Instalador em APK:**
+
+- [x] 1.0 (Oficial)
+- [ ] 1.5 (em construção)
+- [ ] 2.0
 
 # Licenses and Credits
 ⚠️ | Este Repositório está sendo licenciado pelo **GPL-3.0 License**,
