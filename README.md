@@ -179,7 +179,7 @@ Este comando ira pedir uma nova senha de Acesso para você abrir o servidor, lem
 Bem, agora que você aprendeu a como instalar o XFCwin, fica mais fácil né?
 Espero que tenha funcionado corretamente, caso houver algum erro vá em **'issues'** aqui na GitHub para informar
 O problema que ocorreu, caso você desejar Desinstalar o XFCWin utilize o comando **xfcwin-remove**,
-Este comando estará disponível na versão **1.5.0**.
+Este comando esta disponível na versão **1.5.0**.
 
 <h1 align="center">Screenshots do XFCWin</h1>
 
@@ -277,3 +277,8 @@ contem várias novas alterações e otimizamentos, espero que tenha funcionado e
 Agora é possível voce instalar o nosso novo instalador em APK, onde possibilita voce de coletar um script de instalacao
 personalizado do jeito que voce preferir, a primeira versao ja esta disponivel para Dowload aqui na Releases da nossa pagina. desca aqui em baixo
 para fazer o download do XFCWin-Installer.apk
+
+**Nova atualização disponivel**: Agora é possível você baixar uma versão Lite do XFCWin.
+ainda não está disponível no App instalador, más você pode instalar a versão Lite subindo aí em cima no README.
+a versão atual lite v1.0, está otimizada para o armazenamento, trazendo mais espaço ao seu dispositivo, porém é removido algums programas pesados para isso.
+más então é isso, até os próximos Updates!
