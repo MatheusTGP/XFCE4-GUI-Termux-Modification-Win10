@@ -286,6 +286,10 @@ Windows 10 Dark & Light está abaixo
 
 > **Crédits GitHub:** https://github.com/MatheusTGamerPro
 
+If this repository conflicts with the license terms, please create an Issue or send it to our Contact email below
+
+Email:**matheustgpcontato@gmail.com**
+
 Please, Add all of the above rights when creating a copy of the repository
 Or if you are going to make a distribution.
 **🎯 Thanks to all the other developers for providing the themes and icons for XFCWin.**
