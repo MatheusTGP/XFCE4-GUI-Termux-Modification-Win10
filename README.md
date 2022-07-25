@@ -65,13 +65,12 @@ Fique tranquilo. Por Favor, utilize a última versão disponível do Termux.
 <h1 align="center">Baixar instalador do XFCWin em APK</h1>
 
 Ola, agora você poderá pegar o script de instalação, e configurar ele do modo que desejar,
-para isso você pode baixar o APK do nosso 'instalador', caso não queira baixar via APK, faça as etapas a abaixo!
+para isso você pode baixar o APK do nosso 'instalador', caso não queira baixar pelo aplicativo, faça as etapas a mais abaixo.
 
 📥 **| XFCWin-installer em APK:** [XFCWin-Installer.apk](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/tag/v1.0-apk)
 
 Para você que deseja coletar o script instalador pelo APK acima, é muito simples...
-basta que você configure do modo que você desejar ao abrir o aplicativo, e pressionar o botão de "Pegar script de instalação", depois
-irá abrir o seu Termux, e você vai copiar, colar e executar.
+basta que você configure do modo que você desejar ao abrir o aplicativo, e pressionar o botão de "Pegar script de instalação", depois irá abrir o seu Termux, e você vai copiar, colar e executar.
 
 <h1 align="center">Tutorial de instalação e Download</h1>
 
