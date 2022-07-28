@@ -9,7 +9,7 @@
 
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE with Theme Dark")
 
-Nesse Projeto, você poderá executar um dedsktop no seu dispositivo Android, sem precisar de ROOT (Enraizamento),
+Nesse Projeto, você poderá executar um desktop no seu dispositivo Android, sem precisar de ROOT (Enraizamento),
 com ele você pode acessar vários programas sendo, navegador, IDLEs, Java, Python, Entre outro programas, está interface e Leve e com uma ótima Otimização.
 
 Execute Programas para Programar sendo em: **Java, Python, NodeJS, C++/C.**
@@ -22,9 +22,9 @@ da instalação do XFCWin no seu Dispositivo.
 - [Sobre o Desktop](#oque-é-este-desktop)
 - [Informações do XFCWin](#informações-do-xfcwin)
 - [Instale o XFCWin-Installer em APK](#baixar-instalador-do-xfcwin-em-apk)
-- [Aprenda a baixar, instalar, e comandos](#tutorial-de-instalação-e-download)
+- [Aprenda a baixar, instalar, e comandos](#instalação)
 - [Screenshots](#screenshots-do-xfcwin)
-- [Funcionalidades](#informações-do-xfcwin-e-funcionalidades)
+- [Funcionalidades](#informações-e-funcionalidades)
 - [Manutenção](#manutenção-do-projeto)
 - [Licenses & Crédits](#licenses-and-credits)
 - [Final](#finalização)
@@ -45,16 +45,16 @@ Você pode utilizar..**
 |Informações|Respostas|
 |--|--|
 |Nome Modificado| ![Status](https://img.shields.io/badge/-XFCWin-green)|
-|Tamanho| ![Status](https://img.shields.io/badge/-1.6GB-orange)|
-|Memória Livre recomendada| ![Status](https://img.shields.io/badge/-3~4GB_Free-cyan)|
+|Tamanho| ![Status](https://img.shields.io/badge/-1.6GB-green)|
+|Memória Livre recomendada| ![Status](https://img.shields.io/badge/-3~4GB_Free-green)|
 |Versão do XFCE| ![Status](https://img.shields.io/badge/-4-cyan)|
-|Versão do Script| ![Status](https://img.shields.io/badge/-v1.5.0e-orange)|
-|Versão do Android| ![Status](https://img.shields.io/badge/-7.0+-green)|
+|Versão do Script| ![Status](https://img.shields.io/badge/-v1.5.0e-cyan)|
+|Versão do Android| ![Status](https://img.shields.io/badge/-7.0+-cyan)|
 |Versão do Termux| ![Status](https://img.shields.io/badge/-v0.118-cyan)|
 |Arquitetura| ![Status](https://img.shields.io/badge/-32Bits_and_64Bits-blue)|
-|Construção| ![Status](https://img.shields.io/badge/-Automatica-green)|
-|RAM Mínima| ![Status](https://img.shields.io/badge/-2GB_Minimo-cyan)|
-|RAM Recomendavel| ![Status](https://img.shields.io/badge/-4GB_Recomendavel-green)|
+|Construção| ![Status](https://img.shields.io/badge/-Automatica-blue)|
+|RAM Mínima| ![Status](https://img.shields.io/badge/-2GB_Minimo-blue)|
+|RAM Recomendavel| ![Status](https://img.shields.io/badge/-4GB_Recomendavel-blue)|
 |ROOT| ![Status](https://img.shields.io/badge/-NO-red)|
 
 **Nota**: Está versão não requer acesso a Root no dispositivo,
@@ -72,7 +72,7 @@ para isso você pode baixar o APK do nosso 'instalador', caso não queira baixar
 Para você que deseja coletar o script instalador pelo APK acima, é muito simples...
 basta que você configure do modo que você desejar ao abrir o aplicativo, e pressionar o botão de "Pegar script de instalação", depois irá abrir o seu Termux, e você vai copiar, colar e executar.
 
-<h1 align="center">Tutorial de instalação e Download</h1>
+<h1 align="center">Instalação</h1>
 
 Bem, como vocês viram ali em cima, a construção do código é **automática**, sem necessidade de mover, extrair arquivos manualmente,
 Aqui em baixo terá algums comandos que você necessitara para instalar o XFCWin (XFCE), para isso você precisa ter o Termux na última versão instalada,
@@ -86,37 +86,40 @@ Vamos iniciar a construção do XFCWin.
 Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no clipboard do lado direito)**
 
 **Versão Completa**:
-
-    clear && cd $HOME &&
-    rm -rf setup.sh
-    apt update && apt upgrade -y
-    apt install git && 
-    git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
-    cd XFCE4-GUI-Termux-Modification-Win10 &&
-    mv setup.sh $HOME && cd $HOME && rm -rf XFCE4-GUI-Termux-Modification-Win10 &&
-    bash setup.sh
+```bash
+clear && cd $HOME &&
+rm -rf setup.sh
+apt update && apt upgrade -y
+apt install git && 
+git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+cd XFCE4-GUI-Termux-Modification-Win10 &&
+mv setup.sh $HOME && cd $HOME && rm -rf XFCE4-GUI-Termux-Modification-Win10 &&
+bash setup.sh
+```
 
 Agora caso você desejar uma versão mais leve para uso em dispositivos fracos utilize o comando a baixo:
 
 **Versão Português-BR Lite**:
-
-    clear && cd $HOME &&
-    rm -rf setup.sh
-    apt update && apt upgrade -y
-    apt install git && 
-    git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
-    cd XFCE4-GUI-Termux-Modification-Win10 &&
-    cd xfcwin-lite && bash install-lite-pt.sh
+```bash
+clear && cd $HOME &&
+rm -rf setup.sh
+apt update && apt upgrade -y
+apt install git && 
+git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+cd XFCE4-GUI-Termux-Modification-Win10 &&
+cd xfcwin-lite && bash install-lite-pt.sh
+```
 
 **Versão Ingles-EN Lite**:
-
-    clear && cd $HOME &&
-    rm -rf setup.sh
-    apt update && apt upgrade -y
-    apt install git && 
-    git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
-    cd XFCE4-GUI-Termux-Modification-Win10 &&
-    cd xfcwin-lite && bash install-lite-en.sh
+```bash
+clear && cd $HOME &&
+rm -rf setup.sh
+apt update && apt upgrade -y
+apt install git && 
+git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+cd XFCE4-GUI-Termux-Modification-Win10 &&
+cd xfcwin-lite && bash install-lite-en.sh
+```
 
 Após copiar e colar este comando no Termux, ele coletara os recursos do XFCE e logo em seguida irá
 Perguntar a você para *selecionar a Linguagem do script* ele está perguntando se você deseja instalar o XFCE 
@@ -190,7 +193,7 @@ Este comando esta disponível na versão **1.5.0**.
 =====
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2022-01-12-10-48-29.png)
 
-<h1 align="center">Informações do XFCWin e Funcionalidades</h1>
+<h1 align="center">Informações e Funcionalidades</h1>
 
 Todas as Funções e Programas suportados e pré-lançados na versão atual
 
