@@ -10,7 +10,7 @@
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE with Theme Dark")
 
 Nesse Projeto, você poderá executar um desktop no seu dispositivo Android, sem precisar de ROOT (Enraizamento),
-com ele você pode acessar vários programas sendo, navegador, IDLEs, Java, Python, Entre outro programas, está interface e Leve e com uma ótima Otimização.
+com ele você pode acessar vários programas sendo, navegadores, IDEs, Java, Python, e Entre outro programas, está interface e Leve e com uma ótima Otimização.
 
 Execute Programas para Programar sendo em: **Java, Python, NodeJS, C++/C.**
 Você pode acessar a Internet com o navegador, assistir vídeos com Vídeo Player,
@@ -56,11 +56,6 @@ Você pode utilizar..**
 |RAM Mínima| ![Status](https://img.shields.io/badge/-2GB_Minimo-blue)|
 |RAM Recomendavel| ![Status](https://img.shields.io/badge/-4GB_Recomendavel-blue)|
 |ROOT| ![Status](https://img.shields.io/badge/-NO-red)|
-
-**Nota**: Está versão não requer acesso a Root no dispositivo,
-Fique tranquilo. Por Favor, utilize a última versão disponível do Termux.
-
-**Nota 2**: Utilize a Nova versão do Termux mais recente a: **v0.118**
 
 <h1 align="center">Baixar instalador do XFCWin em APK</h1>
 
@@ -229,36 +224,27 @@ caso você for fazer uma cópia desse repositorio, emita os Créditos juntamente
 Como vocês viram, nessa versão contem alguns Temas e Cursores direnciados, os créditos dos desenvolvedores do Tema do
 Windows 10 Dark & Light está abaixo
 
-```Themes used:```
+#### Themes installed
+- **Author:** _B00merang-Project_
+- **Windows Light Theme:** https://github.com/B00merang-Project/Windows-10
+- **Windows Dark Theme:** https://github.com/B00merang-Project/Windows-10-Dark
+- **License**: GPL-3.0
 
-> **Crédits Author:** B00merang-Project
+#### Installed cursors
+- **Author:** _YEYUSHENGFAN258_
+- **Cursor:** https://github.com/yeyushengfan258/ArcStarry-Cursors
+- **License:** GPL-3.0
 
-> **Crédits GitHub | Win Light:** https://github.com/B00merang-Project/Windows-10
+#### Icons used
+- **Author:** _dindin @ G41TR3_
+- **Windows Icons:** https://github.com/dindinG41TR3/windows10iconthemes
 
-> **Crédits GitHub | Win Dark:** https://github.com/B00merang-Project/Windows-10-Dark
+#### Script developer
+- **Author:** MatheusTGP (MatheusTGamerPro)
+- **Profile:** https://github.com/MatheusTGamerPro
+- **Contact Email:** matheustgpcontato@gmail.com
 
-**Cursors used:**
-
-> **Crédits Author:** YEYUSHENGFAN258
-
-> **Crédits GitHub:** https://github.com/yeyushengfan258/ArcStarry-Cursors
-
-**Theme Ícons used:**
-
-> **Crédits Author:** dindin @ G41TR3
-
-> **Crédits GitHub:** https://github.com/dindinG41TR3/windows10iconthemes
-
-**XFCWin Script Developer:**
-
-> **Crédits Author:** MatheusTGP (My)
-
-> **Crédits GitHub:** https://github.com/MatheusTGamerPro
-
-If this repository conflicts with the license terms, please create an Issue or send it to our Contact email below
-
-Email:**matheustgpcontato@gmail.com**
-
+If this repository conflicts with the license terms, please create an Issue or send it to our Contact email.
 Please, Add all of the above rights when creating a copy of the repository
 Or if you are going to make a distribution.
 **Thanks to all the other developers for providing the themes and icons for XFCWin.**
