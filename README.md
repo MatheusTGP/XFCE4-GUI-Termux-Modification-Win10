@@ -1,13 +1,13 @@
 ![ForYou](https://img.shields.io/badge/-Created_with_❤️-gray)
 ![Interface](https://img.shields.io/badge/-Termux_GUI_X11-cyan)
-![Developed with](https://img.shields.io/badge/Construido%20em-Bash-1f425f.svg)
-![Version](https://img.shields.io/badge/-Version_Script:_1.5.0_Build_1.3-blue)
-![News](https://img.shields.io/badge/NOVO:_XFCWin_Installer_em_APK-Disponivel_v1.0-green)
+![Developed with](https://img.shields.io/badge/Construido%20em-Shell_Script-1f425f.svg)
+![Version](https://img.shields.io/badge/-Version_Script:_1.5.0_Build_1.3-gray)
+![News](https://img.shields.io/badge/NOVO:_XFCWin_Instalador_em_APK-Disponivel_v1.0-green)
 ![Support](https://img.shields.io/badge/Android_7.0+-3DDC84?style=for-the-badge&logo=android&logoColor=black)
 
-<h1 align="center"> XFCWIN-Desktop For Termux without Root</h1>
+![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2022-01-12-10-48-29.png "XFCE with Theme Dark")
 
-![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE with Theme Dark")
+<h1 align="center"> XFCWIN-Desktop For Termux without Root</h1>
 
 Nesse Projeto, você poderá executar um desktop no seu dispositivo Android, sem precisar de ROOT (Enraizamento),
 com ele você pode acessar vários programas sendo, navegadores, IDEs, Java, Python, e Entre outro programas, está interface e Leve e com uma ótima Otimização.
