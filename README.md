@@ -140,73 +140,86 @@ Abaixo contém algums dos comandos disponiveis do XFCWIN.
 <h1 align="center">Imagens do XFCWin</h1>
 
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2021-12-30-12-03-27.png?raw=true "XFCE-1")
-=====
+-------
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2021-12-30-12-07-57.png?raw=true "XFCE-2")
-=====
+-------
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2021-12-30-12-03-51.png?raw=true "XFCE-3")
-=====
+-------
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2022-01-12-10-48-29.png)
 
 <h1 align="center">Informações e Funcionalidades</h1>
 
-Todas as Funções e Programas suportados e pré-lançados na versão atual
+Abaixo veja os programas e Funcionalidades disponíveis.
+<details><summary>Pressione para ver todos os programas</summary>
 
-**[ Programas já Instalados ]**
+- **Navegadores Web:**
+   - Otter-browser
+   - netsurf
 
-- Navegadores: Otter-browser, netsurf
-- Gerenciadores: Thunar File Manager
-- IDLEs: Python3.10, Geany, clang
-- Editores: Vim-GTK, nano, leafpad, MTPaint
-- Players: Audacious MP3, Vídeo Player
-- Outros: Java 17 (JDK)
+- **Gerenciadores:**
+   - Thunar File Manager
+
+- **IDEs & Editores:**
+   - Python Tkinter
+   - Geany
+   - QT-Editor & QT-Designer
+   - Vim-GTK
+   - nano
+   - leafpad
+
+- **Música & Video:**
+   - Audacious MP3
+   - Vídeo Player
+
+- **Pacotes:**
+   - Java 17
+   - Python 3 (3.10)
+
+</details>
+<details><summary>Pressione para ver as Funcionalidades</summary>
 
 **[ Funcionalidades / Portabilidades ]**
 
-- Versão Lite (Em Construção...)
-- Jogar Games (depende)
+- Versão Lite
+- Jogar Games
 - Som em tempo real (PulseAudio)
 - Teclado e Mouse Externo
 - Suporte Proot-Distro
 - QTCreator
-- Versão Lite!
 
 **[ Bugs Conhecidos ]**
 
 - Se forçar uma nova instalação sobrescrevendo o já instalado, pode causar erros nos ícones.
 - FireFox não suporta áudio em 32-bits (Testes) (Firefox por Ubuntu)
-- Se tiver mais de 32 Processos abertos o Termux irá crashar (Android 12)
+- Se tiver mais de 32 Processos abertos o Termux irá fechar (Android 12)
 
-**Muitos outros programas contem no XFCWin...**
+</details>
 
 <h1 align="center">Manutenção do Projeto</h1>
 
 |Informações|Status| 
-|--|--|
+|-----------|------|
 |Status|![Status](https://img.shields.io/badge/-Ativo-green)|
-|Mantenedor|![Mantenedor](https://img.shields.io/badge/-MatheusTGamerPro-red)|
-|Status do Script|![Script](https://img.shields.io/badge/-Instalavel-green)|
-|Versão|![Version](https://img.shields.io/badge/-1.5.0e-magenta)|
-|Linguagem|![Language](https://img.shields.io/badge/-Bash_5.1.12-yellow)|
+|Mantenedor|![Mantenedor](https://img.shields.io/badge/-MatheusTGP-red)|
+|Versão|![Version](https://img.shields.io/badge/-1.5.0e-red)|
+|Linguagem|![Language](https://img.shields.io/badge/-Shell_Script-green)|
 
-<h1 align="center"> Planos Atuais e Futuros </h1>
+<h1 align="center">Trajetória</h1>
 
 **Versão Lite:**
-
-- [x] 1.0 (Oficial)
+- [x] 1.0 (Estável)
 - [ ] 2.0
 - [ ] 3.0
 - [ ] ...
 
 **Versão completa:**
-
 - [x] 1.0.0 (Beta)
-- [x] 1.5.0 (Oficial)
+- [x] 1.5.0 (Estável)
 - [ ] 2.0.0
 
 **Instalador em APK:**
-
-- [x] 1.0 (Oficial)
-- [ ] 1.5 (em construção)
+- [x] 1.0 (Beta)
+- [ ] 1.5
 - [ ] 2.0
 
 # Licenses and Credits
@@ -244,7 +257,7 @@ Windows 10 Dark & Light está abaixo
 
 If this repository conflicts with the license terms, please create an Issue or send it to our Contact email below
 
-📩 Email:**matheustgpcontato@gmail.com**
+Email:**matheustgpcontato@gmail.com**
 
 Please, Add all of the above rights when creating a copy of the repository
 Or if you are going to make a distribution.
