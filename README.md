@@ -20,14 +20,14 @@ da instalação do XFCWin no seu Dispositivo.
 <h1 align="center">Navegação</h1>
 
 - [Sobre o Desktop](#oque-é-este-desktop)
-- [Informações do XFCWin](#informações-do-xfcwin)
-- [Instale o XFCWin-Installer em APK](#baixar-instalador-do-xfcwin-em-apk)
-- [Aprenda a baixar, instalar, e comandos](#instalação)
-- [Screenshots](#screenshots-do-xfcwin)
+- [Informações do Desktop](#informações-do-xfcwin)
+- [Instale o instalador do XFCWIN](#baixar-instalador-do-xfcwin-em-apk)
+- [instalação, tutorial e comandos](#instalação)
+- [Imagens do desktop](#imagens-do-xfcwin)
 - [Funcionalidades](#informações-e-funcionalidades)
-- [Manutenção](#manutenção-do-projeto)
+- [Manutenção do Projeto](#manutenção-do-projeto)
 - [Licenses & Crédits](#licenses-and-credits)
-- [Final](#finalização)
+- [Finalização](#finalização)
 
 <h1 align="center">Oque é este desktop</h1>
 
@@ -74,18 +74,11 @@ basta que você configure do modo que você desejar ao abrir o aplicativo, e pre
 
 <h1 align="center">Instalação</h1>
 
-Bem, como vocês viram ali em cima, a construção do código é **automática**, sem necessidade de mover, extrair arquivos manualmente,
-Aqui em baixo terá algums comandos que você necessitara para instalar o XFCWin (XFCE), para isso você precisa ter o Termux na última versão instalada,
-Vá ali em cima em "Download Termux" e clique para começar a baixar.
+Abaixo você consegue instalar algums dos scripts que baixa e instala o XFCWIN automaticamente, você pode optar por instalar a versão completa com todos os recursos e programas, ou a versão Lite, que contém recursos limitados e poucos programas,
+cada versão abaixo existe um idioma para você instalar (o idioma do script), na versão completa o idioma é selecionado no Terminal do Termux. Lembre-se de autorizar o aplicativo do Termux para acessar o armazenamento interno, para conseguir fazer a instalação corretamente. Acima você pode instalar a versão mais recente do Termux,
+é necessário que você tenha-o sempre atualizado.
 
-Chega de enrolação e vamos iniciar os componentes necessários para instalação.
-Primeiramente devemos verificar alguns componentes do nosso Termux, por exemplo, vá até às configurações
-Do Termux e permita que ele acesse o **"Armazenamento Interno"** isso é extremamente necessário, após isso
-Vamos iniciar a construção do XFCWin.
-
-Primeiro Copie esta linha de código abaixo **(basta pressionar em cima e no clipboard do lado direito)**
-
-**Versão Completa**:
+#### Versão Completa (all languages)
 ```bash
 clear && cd $HOME &&
 rm -rf setup.sh
@@ -97,9 +90,7 @@ mv setup.sh $HOME && cd $HOME && rm -rf XFCE4-GUI-Termux-Modification-Win10 &&
 bash setup.sh
 ```
 
-Agora caso você desejar uma versão mais leve para uso em dispositivos fracos utilize o comando a baixo:
-
-**Versão Português-BR Lite**:
+#### Versão Português (Lite)
 ```bash
 clear && cd $HOME &&
 rm -rf setup.sh
@@ -110,7 +101,7 @@ cd XFCE4-GUI-Termux-Modification-Win10 &&
 cd xfcwin-lite && bash install-lite-pt.sh
 ```
 
-**Versão Ingles-EN Lite**:
+#### Versão Inglês (English Lite)
 ```bash
 clear && cd $HOME &&
 rm -rf setup.sh
@@ -120,70 +111,33 @@ git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win1
 cd XFCE4-GUI-Termux-Modification-Win10 &&
 cd xfcwin-lite && bash install-lite-en.sh
 ```
+<h1 align="center">Iniciar o XFCWIN</h1>
 
-Após copiar e colar este comando no Termux, ele coletara os recursos do XFCE e logo em seguida irá
-Perguntar a você para *selecionar a Linguagem do script* ele está perguntando se você deseja instalar o XFCE 
-em **Português-BR** ou em **English-US**,digite **1** para Português ou **2** para Inglês. Caso você esteja utilizando a versão Lite,
-você só precisa copiar o código e executar no Termux, de acordo você selecionar o idioma da versão acima. Certo, continuando, agora que você selecionou a linguagem, o processo de instalação inicia
-com isso ele instala e atualiza os Pacotes do Termux e do XFCE automáticamente, está versão suporta várias Arquiteturas, provavelmente a sua também funciona 🤔,
-Depois de produzir e construir automaticamente a instalação, você necessitara aprender os comandos para iniciar o XFCE, más antes precisamos que você
-Instale mais um App, este App e essencial, e claro.. necessário para você poder visualizar a interface, o App se chama [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android),
-sim você pode instalar ele pela Google Play Store pesquisando, ou pressionando o nome dele acima, agora que você instalou ele,
-você irá se deparar com uma interface com um pequeno botão no canto inferior direito o botão **"+"** este botão serve para você poder adicionar o servidor do XFCE,
-Normalmente o servidor é ``` localhost:1 ```, adicione isso no campo de Endereço / Adress. Na senha quando você for iniciar o servidor
-irá pedir uma senha para ser criada, então fique tranquilo, após fazer está configuração, volte ao Termux depois de ter instalado completamente o XFCWin.
+Quando o XFCWIN estiver instalado, será necessário que você tenha o aplicativo VNC Viewer para acessar o desktop.
+Quando você tiver finalizado a instalação, você poderá utilizar ```xfcwin-guide``` para ver algums dos comandos que você pode utilizar, o mais importante por agora é o ```startvnc```,
+este comando faz com que você inicie o servidor e o desktop automáticamente. Na primeira vez que você estiver chamando esse comando, será necessário você criar uma senha maior ou igual que **6** dígitos,
+você precisa digitar a senha duas vezes, uma para criar e a outra para confirmar se você digitou corretamente (a senha não será exibida enquanto você estiver digitando, não é um Bug). Após você criar a senha
+automáticamente o servidor será iniciado, então agora será necessário acessar o aplicativo **VNC Viewer**.
 
-- (**Iniciar Servidor ↓**)
+Agora que estamos com o desktop iniciado, precisamos fazer o acesso a ele, então na tela principal do VNC Viewer percebemos que no canto inferior direito, contém um botão flutuante (+). Pressionando esse botão ele nos leva para uma tela
+de adição do nosso servidor, no campo de **endereço/adress** adicionaremos o endereço IP do nosso desktop, como está sendo executado no nosso dispositivo (local), o endereço padrão é ```localhost:1```, adicionando isso no campo de endereço, será necessário colocarmos um nome para o nosso Desktop, no campo **Name** você
+pode colocar o nome que desejar aquilo não irá interferir em nada. Agora que você inseriu todos os campos corretamente pressione o botão **Create** para salvar o servidor, após isso você irá para uma tela de resumo e algumas configurações a mais do servidor, na opção **Picture Quality** coloque em **Medium** (Médio), essa opção faz com que a imagem que é exibida do servidor,
+fique melhor e corrija algums tons da cor, agora você pressiona o botão **CONNECT** para acessar o desktop, depois você será redirecionado para a tela de "login" do VNC, lembra aquela senha que você criou ao usar o comando **startvnc**, é aquela senha que você irá adicionar no campo que estiver pedindo a senha. Quando você digitar a senha pressione o botão lá em cima no canto direito para acessar o servidor, e pronto, provavelmente você já
+deve conseguir utilizar o desktop corretamente, caso apareça senha inválida, volte para o Termux e digite o comando ```vncpasswd```, este comando faz com que você resete e crie uma nova senha.
 
-Agora para você poder iniciar o servidor de acesso para o VNC com o endereço: ```localhost:1```, Digite:
+<h1 align="center">Comandos</h1>
 
-    startvnc
+Abaixo contém algums dos comandos disponiveis do XFCWIN.
 
-- (**Parar Servidor ↓**)
+**Comandos:**
+- ```startvnc```
+- ```stopvnc```
+- ```vncpasswd```
+- ```xfcwin-clean```
+- ```xfcwin-info```
+- ```xfcwin-remove```
 
-isso fará com que o servidor se inicie com o processo tudo automaticamente, ele irá já abrir e você poderá controlar o acesso dentro da máquina
-Para você parar a execução do servidor e sair da máquina, vá no botão de **logout** ou digite o seguinte comando no Termux:
-
-    stopvnc
-
-Recomendo que feche o desktop pelo botão **"logout"** dentro da máquina, ele também irá parar o processo
-Do servidor VNC, por favor, não faça vários comandos como: startvnc startvnc, por se não algums servidores a mais irão iniciar, então,
-Sempre lembre-se de abrir E parar o servidor.
-
-- (**Comandos da versão v1.5.0 ↓**)
-
-Também temos algums comandos extras para melhorar o desempenho e remover alguns itens desnecessários:
-
-    xfcwin-clean
-
-↑Este comando fará uma limpeza de alguns cachês que ele procurar, isso deixando menos 'poluido'
-O seu Termux. 😁
-
-↓vamos supor que você acabou inserindo uma senha errada... E queira trocar ela.. Então use este comando:
-
-    vncpasswd
-
-Este comando ira pedir uma nova senha de Acesso para você abrir o servidor, lembre-se:
-**use uma senha de mais de 6 dígitos** ela pode conter letras maiúsculas e minúsculas e numeros.
-
-↓Você também pode verificar as informações do seu dispositivo (v1.5.0) passando o comando:
-
-    xfcwin-info
-
-↓Caso você queira desinstalar o XFCWin utilize o comando:
-
-    xfcwin-remove
-
-↑Este comando acima, fará com que seja completamente desinstalado o XFCWIN.
-
-**[ Finalização]**
-
-Bem, agora que você aprendeu a como instalar o XFCwin, fica mais fácil né?
-Espero que tenha funcionado corretamente, caso houver algum erro vá em **'issues'** aqui na GitHub para informar
-O problema que ocorreu, caso você desejar Desinstalar o XFCWin utilize o comando **xfcwin-remove**,
-Este comando esta disponível na versão **1.5.0**.
-
-<h1 align="center">Screenshots do XFCWin</h1>
+<h1 align="center">Imagens do XFCWin</h1>
 
 ![XFCE-Win-10](https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/blob/main/Fotos/Screenshot_2021-12-30-12-03-27.png?raw=true "XFCE-1")
 =====
@@ -290,11 +244,11 @@ Windows 10 Dark & Light está abaixo
 
 If this repository conflicts with the license terms, please create an Issue or send it to our Contact email below
 
-Email:**matheustgpcontato@gmail.com**
+📩 Email:**matheustgpcontato@gmail.com**
 
 Please, Add all of the above rights when creating a copy of the repository
 Or if you are going to make a distribution.
-**🎯 Thanks to all the other developers for providing the themes and icons for XFCWin.**
+**Thanks to all the other developers for providing the themes and icons for XFCWin.**
 
 <h1 align="center">Finalização</h1>
 
