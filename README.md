@@ -218,11 +218,10 @@ Abaixo veja os programas e Funcionalidades disponíveis.
 - [ ] 2.0
 
 # Licenses and Credits
-⚠️ | Este Repositório está sendo licenciado pelo **GPL-3.0 License**,
-caso você for fazer uma cópia desse repositorio, emita os Créditos juntamente com a mesma licença e os direitos devidos!
+> **Warning**: **Este Repositório está sendo licenciado pelo **GPL-3.0 License**,
+caso você for fazer uma cópia desse repositorio, emita os Créditos juntamente com a mesma licença e os direitos devidos.**
 
-Como vocês viram, nessa versão contem alguns Temas e Cursores direnciados, os créditos dos desenvolvedores do Tema do
-Windows 10 Dark & Light está abaixo
+Créditos de todos os Temas e ícones usados pelo XFCWIN:
 
 #### Themes installed
 - **Author:** _B00merang-Project_
