@@ -41,7 +41,7 @@ echo -e "$C┖━─━─━──━──━─━─━─━──━─━
 	sleep 1
 
 	apt update -y && apt upgrade -y
-	pkg update x11-repo -y
+	pkg upgrade -y && pkg upgrade x11-repo -y
 
 	sleep 2
 	echo -e "$Stats_Upload |$R Os pacotes foram atualizados!"
