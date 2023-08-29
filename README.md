@@ -77,8 +77,8 @@ cada versão abaixo existe um idioma para você instalar (o idioma do script), n
 ```bash
 clear && cd $HOME &&
 rm -rf setup.sh
-apt update && apt upgrade -y
-apt install git && 
+apt update -y && apt upgrade -y
+pkg install git && 
 git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
 cd XFCE4-GUI-Termux-Modification-Win10 &&
 mv setup.sh $HOME && cd $HOME && rm -rf XFCE4-GUI-Termux-Modification-Win10 &&
