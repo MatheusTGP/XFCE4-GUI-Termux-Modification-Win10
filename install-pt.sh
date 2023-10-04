@@ -1,7 +1,7 @@
 #! /data/data/com.termux/files/usr/bin/env bash
 # | Script instalador XFCWIN |
 # | Creditos: ©MatheusTGamerPro |
-# | GitHub: https://github.com/MatheusTGamerPro |
+# | GitHub: https://github.com/MatheusTGP |
 # | Versão: 1.5.0-(build-1.4) |
 # | Linguagem: PT-BR (chosen by user) |
 
@@ -31,7 +31,7 @@ echo -e "$Y                      XFCWin Instalador"
 echo -e "              \033[04;38mInstalador completo do XFCWin"
 echo -e "$W     $R Créditos$W ⟩ MatheusTGamerPro"
 echo -e "$W     $R Versão $W ⟩ v1.5.0-Completo $W"
-echo -e "$W     $R GitHub$W  ⟩ https://github.com/MatheusTGamerPro"
+echo -e "$W     $R GitHub$W  ⟩ https://github.com/MatheusTGP"
 echo -e "$C┖━─━─━──━──━─━─━─━──━─━─━──━─━──━─━─━─━─━──━──━─━──━─━─━─━┚"
 	sleep 2
 	echo
@@ -60,7 +60,7 @@ echo -e "$C┖━─━─━──━──━─━─━─━──━─━
 	echo -e "\033[01;37m[\033[01;35m4/6\033[01;37m] ⟩$M Baixando e Extraíndo bootstrap do XFCWIN... $W"
 
 	cd $HOME
-	curl -L -o xfcwin-data-pt.tar.xz https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/download/v1.5.0-Full/xfcwin-data-pt.tar.xz
+	curl -L -o xfcwin-data-pt.tar.xz https://github.com/MatheusTGP/XFCE4-GUI-Termux-Modification-Win10/releases/download/v1.5.0-Full/xfcwin-data-pt.tar.xz
 	tar -xvf xfcwin-data-pt.tar.xz
 
 	# Configurando o XFCWIN ↓
