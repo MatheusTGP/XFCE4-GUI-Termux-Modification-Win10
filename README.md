@@ -79,7 +79,7 @@ clear && cd $HOME &&
 rm -rf setup.sh
 apt update -y && apt upgrade -y
 pkg install git && 
-git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+git clone https://github.com/MatheusTGP/XFCE4-GUI-Termux-Modification-Win10 &&
 cd XFCE4-GUI-Termux-Modification-Win10 &&
 mv setup.sh $HOME && cd $HOME && rm -rf XFCE4-GUI-Termux-Modification-Win10 &&
 bash setup.sh
@@ -91,7 +91,7 @@ clear && cd $HOME &&
 rm -rf setup.sh
 apt update && apt upgrade -y
 apt install git && 
-git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+git clone https://github.com/MatheusTGP/XFCE4-GUI-Termux-Modification-Win10 &&
 cd XFCE4-GUI-Termux-Modification-Win10 &&
 cd xfcwin-lite && bash install-lite-pt.sh
 ```
@@ -102,7 +102,7 @@ clear && cd $HOME &&
 rm -rf setup.sh
 apt update && apt upgrade -y
 apt install git && 
-git clone https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10 &&
+git clone https://github.com/MatheusTGP/XFCE4-GUI-Termux-Modification-Win10 &&
 cd XFCE4-GUI-Termux-Modification-Win10 &&
 cd xfcwin-lite && bash install-lite-en.sh
 ```
