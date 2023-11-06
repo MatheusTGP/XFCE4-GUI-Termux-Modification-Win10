@@ -1,7 +1,7 @@
 #! /data/data/com.termux/files/usr/bin/env bash
 # | Script installer XFCWIN |
-# | Credits: ©MatheusTGamerPro |
-# | GitHub: https://github.com/MatheusTGamerPro |
+# | Credits: @MatheusTGP |
+# | GitHub: https://github.com/MatheusTGP |
 # | Version: 1.5.0-(build-1.4) |
 # | Language: EN-US (chosen by user) |
 # | Hello, This version is translated for EN-US so that most
@@ -26,11 +26,11 @@ start_install(){
 	sleep 2 && clear
 
 	echo -e "$C┎━─━─━──━──━─━─━─━──━─━──━─━──━─━─━─━─━──━─━──━─━─━──━─━─━┒"
-        echo -e "$Y                      XFCWin Installer"
+        echo -e "$Y                      XFCWin installer"
         echo -e "              \033[04;38mThe-Full installer from XFCWIN"
-        echo -e "$W     $R Credits$W ⟩ MatheusTGamerPro"
+        echo -e "$W     $R Credits$W ⟩ MatheusTGP"
         echo -e "$W     $R Version$W ⟩ v1.5.0-Full $W"
-        echo -e "$W     $R GitHub$W  ⟩ https://github.com/MatheusTGamerPro"
+        echo -e "$W     $R GitHub$W  ⟩ https://github.com/MatheusTGP"
         echo -e "$C┖━─━─━──━──━─━─━─━──━─━─━──━─━──━─━─━─━─━──━──━─━──━─━─━─━┚"
 	sleep 2
 	echo
@@ -59,7 +59,7 @@ start_install(){
 	echo -e "\033[01;37m[\033[01;35m4/6\033[01;37m] ⟩$M Downloading and Extracting Bootstrap from XFCWin... $W"
 
 	cd $HOME
-	curl -L -o xfcwin-data-en.tar.xz https://github.com/MatheusTGamerPro/XFCE4-GUI-Termux-Modification-Win10/releases/download/v1.5.0-Full/xfcwin-data-en.tar.xz
+	curl -L -o xfcwin-data-en.tar.xz https://github.com/MatheusTGP/XFCE4-GUI-Termux-Modification-Win10/releases/download/v1.5.0-Full/xfcwin-data-en.tar.xz
 	tar -xvf xfcwin-data-en.tar.xz
 
 	# Setting The XFCWin ↓
@@ -103,7 +103,6 @@ start_install(){
 	mkdir $HOME/Pictures
 	mkdir $HOME/Games
 
-	# Installed...↓
 	sleep 2 && clear
 	echo -e "\033[01;37m[\033[01;35mCompleted\033[01;37m] ⟩$G XFCWin Installed successfully!"
 	sleep 1
@@ -119,7 +118,7 @@ start_install(){
 
 cancel_install(){
 	clear
-	echo -e "\033[01;31mInstallation Canceled!\033[01;37m"
+	echo -e "\033[01;31mInstallation canceled!\033[01;37m"
 	sleep 1
 	clear
 }
@@ -128,11 +127,11 @@ ask_setup(){
 	clear
 	echo -e "\033[01;33m"
 
-	read -p 'Do you want to start the installation? y/n: ' ask_setup
+	read -p 'Do you want to start the installation? [y/n]: ' ask_setup
 	case $ask_setup in
 		y|Y ) start_install ;;
 		n|N ) cancel_install ;;
-		* ) echo -e "\033[01;31mThis option does not exist!\033[00;00m" && sleep 1 && ask_setup  ;; 
+		* ) echo -e "\033[01;31m Invalid option.\033[00;00m" && sleep 1 && ask_setup  ;; 
 esac
 }
 
